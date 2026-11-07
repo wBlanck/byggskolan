@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./byggritningvy-ZHAWXIaM.js","./mobelvy-Dgo5oO1U.js","./mobelvy-XokutZt9.css","./vy-BcGd9zYS.js","./vy-BJFX4rgN.css","./byggritning-U7eH5TLQ.css","./byggval-DydEMPYH.js","./main-CQi5HQaz.js","./main-B-06BU6z.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./byggritningvy-CamJoDEG.js","./mobelvy-D92A4CI4.js","./mobelvy-XokutZt9.css","./vy-BqEIdNX5.js","./vy-BJFX4rgN.css","./byggritning-B_lnbC7-.css","./byggval-DlCs3N1S.js","./main-Ce9V73qZ.js","./main-B-06BU6z.css"])))=>i.map(i=>d[i]);
 (function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var e=`BYGGSKOLAN-FACIT
 id: tak72-takstolar-1
 ---FRÅGOR---
@@ -807,7 +807,7 @@ scen Översikt | öga 3000,-3500,5000 | mål 3000,1400,0
 scen Fog A – stödläkt | öga 5200,-300,700 | mål 5750,340,60
 scen Fog B – vid nock | öga 4800,1400,1000 | mål 5600,2300,70
 ---SLUT---
-`,v=`BYGGSKOLAN-FACIT
+`,ee=`BYGGSKOLAN-FACIT
 id: tak75-pannlaggning-1
 ---FRÅGOR---
 1. Dalen leder vatten, och slutar raden med en dal rinner vattnet mot vindskivan och in under den. Vågtoppen håller vattnet borta. Blir det en dal får du använda sidospelet eller kapa enligt anvisningen.
@@ -826,7 +826,7 @@ del fa4 | Betongpanna | box 300..600, -50..370, 51..101
 del fa5 | Betongpanna | box 0..300, -50..370, 51..101
 del fc1 | Betongpanna | box 1200..1500, 310..730, 53..103
 del fc2 | Betongpanna | box 0..300, 310..730, 53..103
-`,y=`BYGGSKOLAN-ÖVNING
+`,te=`BYGGSKOLAN-ÖVNING
 id: tak75-pannlaggning-1
 titel: Tak 7.5 N2 – pannläggning: start, randzon, stormclips
 typ: bygg
@@ -900,7 +900,7 @@ scen Översikt | öga 760,-2000,2500 | mål 760,500,50
 scen Fog A – panna mot läkt | öga 1000,-500,700 | mål 750,350,100
 scen Fog B – panna vid gavel | öga -600,-300,600 | mål 150,300,100
 ---SLUT---
-`,ee=`BYGGSKOLAN-FACIT
+`,ne=`BYGGSKOLAN-FACIT
 id: tak75-sned-gavel-1
 ---FRÅGOR---
 1. Följer du gaveln blir alla rader sneda, vågorna hamnar fel mot varandra och felet syns över hela taket. Lodlinjen håller taket rakt, och bara sista biten anpassas.
@@ -918,7 +918,7 @@ del fa2 | Betongpanna | box 904..1204, -50..370, 51..101
 del fa3 | Betongpanna | box 602..902, -50..370, 51..101
 del fa4 | Betongpanna | box 300..600, -50..370, 51..101
 del fa5 | Betongpanna | box -2..298, -50..370, 51..101 | kaplinje 120,-50,51 till 162,370,51 behåll 230,160,51
-`,te=`BYGGSKOLAN-ÖVNING
+`,re=`BYGGSKOLAN-ÖVNING
 id: tak75-sned-gavel-1
 titel: Tak 7.5 N2 – sned gavel: lodlinje, sidospel, kapad panna
 typ: bygg
@@ -990,7 +990,7 @@ scen Översikt | öga 760,-2000,2500 | mål 760,500,50
 scen Fog A – kapad panna | öga 100,-700,700 | mål 200,150,90
 scen Fog B – vid gaveln | öga 300,-800,700 | mål 450,150,90
 ---SLUT---
-`,ne=`BYGGSKOLAN-FACIT
+`,ie=`BYGGSKOLAN-FACIT
 id: tak76-gavelbeslag-1
 ---FRÅGOR---
 1. Vikt över nock börjar där viket sitter, i nocken, och den övre biten ligger på den undre så att vattnet rinner över skarven. Falsat måste passas ihop nerifrån, och varje ny bit falsas in i den förra.
@@ -1008,7 +1008,7 @@ del fg3 | Gavelbeslag | box -150..50, 0..1100, 22..23
 del fh1 | Gavelbeslag | box 2950..3150, 0..2000, 22..23
 del fh2 | Gavelbeslag | box 2950..3150, 1900..3900, 23..24
 del fh3 | Gavelbeslag | box 2950..3150, 3800..4900, 22..23
-`,re=`BYGGSKOLAN-ÖVNING
+`,ae=`BYGGSKOLAN-ÖVNING
 id: tak76-gavelbeslag-1
 titel: Tak 7.6 N2 – gavelbeslag vikt över nock och falsat
 typ: bygg
@@ -1081,7 +1081,7 @@ scen Översikt | öga 1500,-3500,6000 | mål 1500,2450,0
 scen Fog A – beslag | öga -800,3500,900 | mål -50,3900,20
 scen Fog B – överlapp | öga -800,2500,800 | mål -50,2950,20
 ---SLUT---
-`,ie=`BYGGSKOLAN-FACIT
+`,oe=`BYGGSKOLAN-FACIT
 id: tak76-nock-1
 ---FRÅGOR---
 1. Den fria änden vetter bakåt mot den panna som redan ligger. Börjar du i läsidan och lägger mot vinden vetter änden bort från vinden. Lägger du tvärtom tar vinden tag i skarven och kan lyfta pannorna och driva in snö.
@@ -1097,7 +1097,7 @@ del fb1 | Nockband | box 0..3000, 850..1150, 191..192
 del fa1 | Nockpanna | box 2570..2990, 875..1125, 192..242
 del fa2 | Nockpanna | box 2230..2650, 875..1125, 194..244
 del fa3 | Nockpanna | box 1890..2310, 875..1125, 192..242
-`,ae=`BYGGSKOLAN-ÖVNING
+`,se=`BYGGSKOLAN-ÖVNING
 id: tak76-nock-1
 titel: Tak 7.6 N2 – nockband och nockpannor
 typ: bygg
@@ -1164,7 +1164,7 @@ scen Översikt | öga 1500,-2000,3000 | mål 1500,1000,100
 scen Fog A – nockband | öga 700,500,800 | mål 500,1000,190
 scen Fog B – nockpanna | öga 3000,300,800 | mål 2780,1000,220
 ---SLUT---
-`,oe=`BYGGSKOLAN-FACIT
+`,ce=`BYGGSKOLAN-FACIT
 id: tak75-plat-lakt-1
 ---FRÅGOR---
 1. En pannas längd bestämmer överlappet och därför läkten. Plåten är en bärande balk mellan läkterna, så avståndet styrs av hur långt profilen klarar att spänna med snölasten på platsen.
@@ -1183,7 +1183,7 @@ del fr1 | Bärläkt 45x45 | box 0..3600, 1250..1295, 26..71
 del fr2 | Bärläkt 45x45 | box 0..3600, 2150..2195, 26..71
 del fr3 | Bärläkt 45x45 | box 0..3600, 3050..3095, 26..71
 del fr4 | Bärläkt 45x45 | box 0..3600, 3950..3995, 26..71
-`,se=`BYGGSKOLAN-ÖVNING
+`,le=`BYGGSKOLAN-ÖVNING
 id: tak75-plat-lakt-1
 titel: Tak 7.5 N2 – läkt för plåttak enligt tabellen
 typ: bygg
@@ -1260,7 +1260,7 @@ scen Översikt | öga 1800,-3500,6000 | mål 1800,2400,0
 scen Fog A – läkt mot ströläkt | öga 700,700,900 | mål 119,1272,50
 scen Fog B – extra läkt | öga 900,-900,800 | mål 500,300,40
 ---SLUT---
-`,ce=`BYGGSKOLAN-FACIT
+`,ue=`BYGGSKOLAN-FACIT
 id: tak75-platlangder-1
 ---FRÅGOR---
 1. Den fria kanten pekar bakåt mot längden som redan ligger. Börjar du i läsidan och lägger mot vinden vetter kanterna bort från vinden. Lägger du tvärtom blåser vinden rakt in i skarvarna och kan lyfta dem och driva in regn.
@@ -1275,7 +1275,7 @@ Första längden ligger vid högra gaveln, eftersom vinden kommer från vänster
 del fp1 | Takplåt profilerad | box 2500..3600, -50..2950, 71..91
 del fp2 | Takplåt profilerad | box 2500..3600, 2750..4750, 75..95
 del fp3 | Takplåt profilerad | box 1500..2600, -50..2950, 73..93
-`,le=`BYGGSKOLAN-ÖVNING
+`,de=`BYGGSKOLAN-ÖVNING
 id: tak75-platlangder-1
 titel: Tak 7.5 N2 – plåtlängder: riktning, överlapp, skruv
 typ: bygg
@@ -1353,7 +1353,7 @@ scen Översikt | öga 1800,-3500,6000 | mål 1800,2400,0
 scen Fog A – skruv i dal | öga 3100,-700,700 | mål 3050,70,80
 scen Fog B – överlapp | öga 2550,300,1100 | mål 2550,800,80
 ---SLUT---
-`,ue=`BYGGSKOLAN-FACIT
+`,fe=`BYGGSKOLAN-FACIT
 id: tak76-platdetaljer-1
 ---FRÅGOR---
 1. Vattnet från plåten ska rinna ovanpå fotplåten och ut i rännan. Ligger den ovanpå rinner vattnet in under fotplåtens bakkant och ner på pappen.
@@ -1370,7 +1370,7 @@ del fn1 | Nocktätning | box 50..2050, 3750..3800, 92..112
 del fn2 | Nockplåt | box 50..2050, 3700..4100, 112..113
 del fv1 | Gavelbeslag | box -100..100, 0..2000, 94..95
 del fv2 | Gavelbeslag | box -100..100, 1900..3900, 95..96
-`,de=`BYGGSKOLAN-ÖVNING
+`,pe=`BYGGSKOLAN-ÖVNING
 id: tak76-platdetaljer-1
 titel: Tak 7.6 N2 – plåt vid takfot, gavel och nock
 typ: bygg
@@ -1444,7 +1444,7 @@ scen Fog A – gavelbeslag | öga -1000,900,900 | mål 0,1000,90
 scen Fog B – nockplåt | öga 2600,3300,800 | mål 1500,3800,100
 scen Sektion vid nocken | öga 1000,6000,100 | mål 1000,3800,100 | snitt y 3775
 ---SLUT---
-`,fe=`BYGGSKOLAN-FACIT
+`,me=`BYGGSKOLAN-FACIT
 id: tak7-felsok-pannor-1
 ---FEL---
 fel 1 | delar r5 | Ränngaveln sitter mot vindskivan | Rännan får inget utrymme att röra sig, och vatten vid gaveln rinner mot vindskivan | Flytta rännan så att gaveln ligger 15 från vindskivan
@@ -1469,7 +1469,7 @@ del fs8 | Ströläkt 25x38 | från 679,7.38,2929.57 till 679,212.31,3033.99 | fl
 del fp1 | Regel 45x145 | box 0..1222.5, 4254.33..4299.33, 5104.15..5249.15
 del fp2 | Regel 45x145 | box 1222.5..3900, 4254.33..4299.33, 5104.15..5249.15
 del fg2 | Gavelbeslag | från 65,853.33,3427.94 till 65,2635.34,4335.93 | flatt
-`,pe=`BYGGSKOLAN-ÖVNING
+`,he=`BYGGSKOLAN-ÖVNING
 id: tak7-felsok-pannor-1
 titel: Tak 7 N5 – felsök betongpannetak
 typ: felsök
@@ -1585,7 +1585,7 @@ scen Fog A – fotplåt | öga 4300,-1500,3700 | mål 3500,40,2930
 scen Fog B – nockplanka | öga 2500,1800,6500 | mål 1222,4276.83,5174.15
 scen Hängrännan vid vänster gavel | öga -1300,-1300,3300 | mål 150,-60,2850
 ---SLUT---
-`,b=`BYGGSKOLAN-FACIT
+`,ge=`BYGGSKOLAN-FACIT
 id: tak7-felsok-plat-1
 ---FEL---
 fel 1 | delar l3,l5 | Läkten saknas mellan två rader, så spannet är 1800 | Plåten klarar 900 i tabellen, och den sviktar under snö | Lägg in raden med 900 c/c
@@ -1609,7 +1609,7 @@ del fo1 | Takplåt profilerad | box 2500..3600, 2750..4750, 76..96
 del fn1 | Nocktätning | box 1600..3600, 4650..4700, 92..112
 del fn2 | Nockplåt | box 1600..3600, 4600..5000, 112..113
 del ff1 | Fotplåt | box 1600..3600, -30..120, 71..72
-`,me=`BYGGSKOLAN-ÖVNING
+`,_e=`BYGGSKOLAN-ÖVNING
 id: tak7-felsok-plat-1
 titel: Tak 7 N5 – felsök plåttak
 typ: felsök
@@ -1687,5 +1687,493 @@ scen Översikt | öga 1800,-3500,6000 | mål 1800,2400,0
 scen Fog A – överlapp | öga 2600,1500,1200 | mål 2600,2800,90
 scen Fog B – nock | öga 3000,3700,900 | mål 3000,4700,100
 ---SLUT---
-`,x=`byggskolan-live`;function he(e){try{return e?.getItem(x)!==`av`}catch{return!0}}function ge(e,t){try{return e?(e.setItem(x,t?`pa`:`av`),!0):!1}catch{return!1}}var S=`byggskolan-senaste-ovning`;function _e(e){try{let t=e?.getItem(S);return t&&/^\d+$/.test(t)?Number(t):null}catch{return null}}function ve(e,t){try{e?.setItem(S,String(t))}catch{}}function C(){try{return window.localStorage}catch{return null}}function ye(e){return!e.mattBuffer&&e.iValj&&!e.escGjordeNagot}var w=e=>{let t=Number(e.trim().replace(`,`,`.`));if(e.trim()===``||Number.isNaN(t))throw Error(`Inte ett tal: ${e}`);return t},be=e=>e.split(`,`).map(w);function T(e){let t=e.split(`,`).map(e=>{let t=Number(e.trim());if(e.trim()===``||Number.isNaN(t))throw Error(`Inte ett tal: ${e}`);return t});if(t.length!==3)throw Error(`Punkten ska ha x,y,z: ${e}`);return[t[0],t[1],t[2]]}function xe(e){let t=e.trim().match(/^(-?[\d.]+)\s*\.\.\s*(-?[\d.]+)$/);if(!t)throw Error(`Intervallet ska vara a..b: ${e}`);return[Number(t[1]),Number(t[2])]}function E(e,t){let n=e.split(`,`).map(xe);if(n.length!==3)throw Error(`${t}: box ska ha tre intervall.`);return[n[0],n[1],n[2]]}function Se(e,t=`BYGGSKOLAN-ÖVNING`){let n=e.replace(/^﻿/,``).split(/\r?\n/);for(;n.length&&!n[0].trim();)n.shift();if(!(n.shift()??``).trim().toUpperCase().startsWith(t))throw Error(`Blocket måste börja med ${t}.`);let r={},i={},a=null;for(let e of n){let t=e.trim(),n=t.match(/^-{3,}\s*([A-ZÅÄÖ]+)\s*-{3,}$/i);if(n){let e=n[1].toUpperCase();if(e===`SLUT`)break;a=i[e]=[]}else if(a)a.push(e);else if(t&&!t.startsWith(`#`)){let e=t.match(/^([a-zåäö]+)\s*:\s*(.*)$/i);e&&(r[e[1].toLowerCase()]=e[2].trim())}}return{huvud:r,sektioner:i}}function D(e){let t=e.split(`|`).map(e=>e.trim()),n=t.shift().replace(/^del\s*/i,``),r=t.shift()??``,i=t.shift()??``,a={id:n,namn:r,exempel:!1,miljo:!1,kap:[],kaplinje:[],urtag:[]},o=i.match(/^box\s+(.+)$/i),s=i.match(/^från\s+(.+?)\s+till\s+(.+)$/i),c=i.match(/^vid\s+(.+)$/i);if(o)a.box=E(o[1],`del ${n}`);else if(s){a.fran=T(s[1]),a.till=T(s[2]);let e=(t.shift()??``).toLowerCase();if(e!==`högkant`&&e!==`flatt`)throw Error(`del ${n}: efter från/till ska det stå högkant eller flatt.`);a.lage=e}else if(c)for(a.vid=T(c[1]);/^[xyz]\s+\S/i.test(t[0]??``);)t.shift();else throw Error(`del ${n}: tredje fältet ska börja med box, från eller vid.`);for(let e of t){let t=e.match(/^kaplinje\s+(.+?)\s+till\s+(.+?)\s+behåll\s+(.+)$/i),r=e.match(/^kap\s+([xyz])\s*([<>])\s*(-?[\d.]+)$/i),i=e.match(/^urtag\s+box\s+(.+)$/i),o=e.match(/^färg\s+(.+)$/i),s=e.match(/^tagg\s+(.+)$/i);if(t)a.kaplinje.push({fran:T(t[1]),till:T(t[2]),behall:T(t[3])});else if(/^kaplinje\b/i.test(e))throw Error(`del ${n}: kaplinje ska skrivas 'kaplinje x1,y1,z1 till x2,y2,z2 behåll x,y,z'.`);else if(r){let e=`xyz`.indexOf(r[1].toLowerCase());a.kap.push({axel:e,behall:r[2],varde:Number(r[3])})}else if(/^kap\b/i.test(e))throw Error(`del ${n}: kap ska skrivas t.ex. 'kap y<1200' (behåll y under 1200).`);else i?a.urtag.push(E(i[1],`del ${n}: urtag`)):/^exempel$/i.test(e)?a.exempel=!0:/^miljö$/i.test(e)?a.exempel=a.miljo=!0:o?a.farg=be(o[1]):s&&(a.tagg=s[1].trim(),/^exempel$/i.test(a.tagg)&&(a.exempel=!0))}return a}function Ce(e,t){let n=e.split(`|`).map(e=>e.trim()),r=n[0].replace(/^koll\s*/i,``),i={},a=e=>{let[t,...n]=e.split(/\s+/),r=n.join(` `).trim();if(/^fel$/i.test(t))i.fel=r;else if(/^tolerans$/i.test(t))i.tolerans=w(r.replace(/mm$/i,``));else throw Error(`koll: förstår inte '${e}' (fel <text> eller tolerans <mm>).`)};if(/^schakt$/i.test(r)){let e=(n[1]??``).match(/^box\s+(.+)$/i);if(!e)throw Error(`koll schakt: andra fältet ska vara "box x0..x1, y0..y1, z0..z1".`);let r=!1;for(let e of n.slice(2).filter(Boolean))/^rund$/i.test(e)?r=!0:a(e);return{typ:`schakt`,nyckel:t(),box:E(e[1],`koll schakt`),rund:r,...i}}if(/^f[äa]stdon$/i.test(r)){let e=n[1]??``;if(!e)throw Error(`koll fästdon: namn saknas.`);let r=(n[2]??``).match(/^(\d+)\s*(st)?$/i);if(!r)throw Error(`koll fästdon: tredje fältet ska vara antal, t.ex. "6 st".`);let o=(n[3]??``).match(/^box\s+(.+)$/i);if(!o)throw Error(`koll fästdon: fjärde fältet ska vara "box x0..x1, y0..y1, z0..z1".`);return n.slice(4).filter(Boolean).forEach(a),{typ:`fästdon`,nyckel:t(),namn:e,antal:Number(r[1]),box:E(o[1],`koll fästdon`),...i}}let o=D(n.filter((e,t)=>t===0||!/^(fel|tolerans)(\s|$)/i.test(e)||(a(e),!1)).join(` | `).replace(/^koll/i,`del`));return{typ:`del`,nyckel:t(o.id),del:o,...i}}function we(e){let t=[];for(let n of e){let e=n.trim(),r=e.match(/^(\d+)\s*[.):]\s*(.*)$/),i=t[t.length-1];if(r)t.push({nr:Number(r[1]),text:r[2],koll:[]});else if(i&&/^koll\s/i.test(e)){let t=i.koll.length;i.koll.push(Ce(e,e=>e?`${i.nr}/${e}`:`${i.nr}/#${t}`))}else i&&/^fog\s*:/i.test(e)&&(i.fog=e.replace(/^fog\s*:/i,``).trim())}return t}function Te(e){let t=e.split(`|`).map(e=>e.trim()),n=t.find(e=>/^öga\s/i.test(e)),r=t.find(e=>/^mål\s/i.test(e));return!n||!r?null:{namn:t[0].replace(/^scen\s*/i,``),oga:T(n.replace(/^öga\s+/i,``)),mal:T(r.replace(/^mål\s+/i,``))}}var Ee=e=>e.filter(e=>/^del\s/i.test(e.trim())).map(e=>D(e.trim()));function O(e){let{huvud:t,sektioner:n}=Se(e),r=e=>(n[e]??[]).filter(e=>e.trim());return{id:t.id??``,titel:t.titel??``,typ:t.typ??``,kalla:t.källa??``,origo:t.origo??``,prov:/^ja$/i.test(t.prov??``),uppgift:(n.UPPGIFT??[]).join(`
-`).trim(),steg:we(n.STEG??[]),fragor:r(`FRÅGOR`).map(e=>e.trim().replace(/^\d+\.\s*/,``)),delar:Ee(r(`MODELL`)),scener:r(`SCENER`).map(Te).filter(e=>e!==null)}}function k(e){let t=e.split(`/`).pop();if(t.endsWith(`-facit.txt`))return null;let n=/^(\d+)-.*\.txt$/.exec(t);return n?Number(n[1]):null}function De(e){let t=[];for(let[n,r]of Object.entries(e)){let e=k(n);if(e===null)continue;let i=``,a=!1;try{let e=O(r);i=e.titel,a=!!e.prov}catch{}i||=n.split(`/`).pop().replace(/^\d+-/,``).replace(/\.txt$/,``),t.push({nr:e,titel:i,prov:a})}return t.sort((e,t)=>e.nr-t.nr)}function Oe(e,t,n){let r=A(e,t);return r.sort===`ovning`?r.nr:n!==null&&t.includes(n)?n:t.includes(11)?11:t[0]}function A(e,t){let n=new URLSearchParams(e).get(`ovning`);if(n===null||!/^\d+$/.test(n.trim()))return{sort:`meny`};let r=Number(n);return t.includes(r)?{sort:`ovning`,nr:r}:{sort:`meny`}}var j=[{id:`meny`,namn:`Menyn`,standard:`§`},{id:`flytta`,namn:`Flytta`,standard:`G`},{id:`kopiera`,namn:`Kopiera i Flytta (av och på)`,standard:`Ctrl`},{id:`matUt`,namn:`Mät ut`,standard:``},{id:`kapa`,namn:`Kapa`,standard:`X`},{id:`taBort`,namn:`Ta bort valda`,standard:`Delete`},{id:`valjAlla`,namn:`Välj alla du lagt`,standard:`Ctrl+A`},{id:`angra`,namn:`Ångra`,standard:`Ctrl+Z`},{id:`gorOm`,namn:`Gör om`,standard:`Ctrl+Y`},{id:`avbryt`,namn:`Avmarkera, börja om, sluta`,standard:`Escape`},{id:`vrid`,namn:`Vrid 90° när du lägger`,standard:`Tab`},{id:`fastpunkt`,namn:`Byt fästpunkt när du lägger, byt snitt i Kapa`,standard:`ArrowUp`},{id:`klyv`,namn:`Kap tvärs eller klyvning i Kapa`,standard:`ArrowLeft`},{id:`andraMatt`,namn:`Ändra mått (möbler, dra en yta)`,standard:`P`}],M={Control:`Ctrl`,Alt:`Alt`,Meta:`Ctrl`},ke=e=>/^[0-9.,\-*]$/.test(e)||e===`Enter`||e===`Backspace`||e===`Shift`;function N(e){if(e.key in M||e.key===`Shift`)return``;let t=e.key.length===1,n=t?e.key.toUpperCase():e.key,r=[];return(e.ctrlKey||e.metaKey)&&r.push(`Ctrl`),e.altKey&&r.push(`Alt`),e.shiftKey&&(!t||/^\p{L}$/u.test(e.key))&&r.push(`Shift`),r.push(n===` `?`Space`:n),r.join(`+`)}var Ae={Escape:`Esc`,ArrowUp:`Pil upp`,ArrowDown:`Pil ned`,ArrowLeft:`Pil vänster`,ArrowRight:`Pil höger`,Space:`Mellanslag`},P=e=>e?e.split(`+`).map(e=>Ae[e]??e).join(`+`):`ingen`,je=class{lagra;val;constructor(e){this.lagra=e,this.val=Object.fromEntries(j.map(e=>[e.id,e.standard]));try{let t=JSON.parse(e?.las()??`{}`);for(let e of j)typeof t[e.id]==`string`&&(this.val[e.id]=t[e.id])}catch{}}tangent(e){return this.val[e]}namn(e){return this.val[e]?P(this.val[e]):`–`}handling(e){return e?j.find(t=>this.val[t.id]===e)?.id??null:null}satt(e,t){if(t&&ke(t))throw Error(`${P(t)} används av måttrutan.`);let n=t?this.handling(t):null;return n&&n!==e&&(this.val[n]=``),this.val[e]=t,this.spara(),n&&n!==e?n:null}aterstall(){for(let e of j)this.val[e.id]=e.standard;this.spara()}spara(){this.lagra?.skriv(JSON.stringify(this.val))}};function Me(){return{las(){try{return localStorage.getItem(`byggskolan.tangenter`)}catch{return null}},skriv(e){try{localStorage.setItem(`byggskolan.tangenter`,e)}catch{}}}}var F=new je(typeof localStorage>`u`?void 0:Me()),Ne=`byggskolan-tema`;function Pe(e){try{return e?.getItem(Ne)!==`av`}catch{return!0}}function Fe(e,t){try{e?.setItem(Ne,t?`verkstad`:`av`)}catch{}}function Ie(){try{return window.localStorage}catch{return null}}var Le=[];function Re(){return document.documentElement.dataset.tema===`verkstad`}function ze(e){Le.push(e)}function I(e,t=!0){e?document.documentElement.dataset.tema=`verkstad`:delete document.documentElement.dataset.tema,t&&Fe(Ie(),e);for(let t of Le)t(e)}function Be(){I(Pe(Ie()),!1)}var L=()=>!!document.getElementById(`till-menyn`);function Ve(e,t,n,r){if(L())return;let i=document.createElement(`div`);i.id=`till-menyn`;let a=i.appendChild(document.createElement(`div`));a.setAttribute(`role`,`dialog`);let o=a.appendChild(document.createElement(`h2`));o.textContent=e;let s=a.appendChild(document.createElement(`p`));s.textContent=t;let c=a.appendChild(document.createElement(`div`));c.className=`knappar`;let l=c.appendChild(document.createElement(`button`));l.type=`button`,l.className=`ga`,l.textContent=n;let u=c.appendChild(document.createElement(`button`));u.type=`button`,u.className=`stanna`,u.textContent=`Stanna`;let d=()=>{removeEventListener(`keydown`,f,!0),i.remove()},f=e=>{if(e.key!==`Tab`&&(e.preventDefault(),e.stopImmediatePropagation(),e.key===`Escape`||e.key===`Enter`||e.key===` `)){if(e.key!==`Escape`&&document.activeElement===l)return d(),r();d()}};l.addEventListener(`click`,()=>{d(),r()}),u.addEventListener(`click`,d),i.addEventListener(`pointerdown`,e=>{e.target===i&&d()}),addEventListener(`keydown`,f,!0),document.body.append(i),u.focus()}var He=Object.assign({"../../../wb_bygg/ovningar/01-tak72-takstolar-1-facit.txt":e,"../../../wb_bygg/ovningar/01-tak72-takstolar-1.txt":t,"../../../wb_bygg/ovningar/02-tak74-raspont-1-facit.txt":n,"../../../wb_bygg/ovningar/02-tak74-raspont-1.txt":r,"../../../wb_bygg/ovningar/03-tak76-vindskivor-1-facit.txt":i,"../../../wb_bygg/ovningar/03-tak76-vindskivor-1.txt":a,"../../../wb_bygg/ovningar/04-tak76-nockplanka-1-facit.txt":o,"../../../wb_bygg/ovningar/04-tak76-nockplanka-1.txt":s,"../../../wb_bygg/ovningar/05-tak76-rannkrokar-1-facit.txt":c,"../../../wb_bygg/ovningar/05-tak76-rannkrokar-1.txt":l,"../../../wb_bygg/ovningar/06-tak76-hangranna-1-facit.txt":u,"../../../wb_bygg/ovningar/06-tak76-hangranna-1.txt":d,"../../../wb_bygg/ovningar/07-tak76-fotplat-1-facit.txt":f,"../../../wb_bygg/ovningar/07-tak76-fotplat-1.txt":p,"../../../wb_bygg/ovningar/08-tak74-strolakt-1-facit.txt":m,"../../../wb_bygg/ovningar/08-tak74-strolakt-1.txt":h,"../../../wb_bygg/ovningar/09-tak75-pannstaplar-1-facit.txt":g,"../../../wb_bygg/ovningar/09-tak75-pannstaplar-1.txt":_,"../../../wb_bygg/ovningar/10-tak75-pannlaggning-1-facit.txt":v,"../../../wb_bygg/ovningar/10-tak75-pannlaggning-1.txt":y,"../../../wb_bygg/ovningar/11-tak75-sned-gavel-1-facit.txt":ee,"../../../wb_bygg/ovningar/11-tak75-sned-gavel-1.txt":te,"../../../wb_bygg/ovningar/12-tak76-gavelbeslag-1-facit.txt":ne,"../../../wb_bygg/ovningar/12-tak76-gavelbeslag-1.txt":re,"../../../wb_bygg/ovningar/13-tak76-nock-1-facit.txt":ie,"../../../wb_bygg/ovningar/13-tak76-nock-1.txt":ae,"../../../wb_bygg/ovningar/14-tak75-plat-lakt-1-facit.txt":oe,"../../../wb_bygg/ovningar/14-tak75-plat-lakt-1.txt":se,"../../../wb_bygg/ovningar/15-tak75-platlangder-1-facit.txt":ce,"../../../wb_bygg/ovningar/15-tak75-platlangder-1.txt":le,"../../../wb_bygg/ovningar/16-tak76-platdetaljer-1-facit.txt":ue,"../../../wb_bygg/ovningar/16-tak76-platdetaljer-1.txt":de,"../../../wb_bygg/ovningar/17-tak7-felsok-pannor-1-facit.txt":fe,"../../../wb_bygg/ovningar/17-tak7-felsok-pannor-1.txt":pe,"../../../wb_bygg/ovningar/18-tak7-felsok-plat-1-facit.txt":b,"../../../wb_bygg/ovningar/18-tak7-felsok-plat-1.txt":me}),R=(e,t,n)=>{let r=document.createElement(e);return t&&(r.className=t),n!==void 0&&(r.textContent=n),r},z=null,B=null,V=`start`,H=null,U=null,W=``,G=null;function Ue(e){z=e,K()&&V===`start`&&J(`start`)}var K=()=>!!B&&!B.hidden;function We(){B||Ge(),B.hidden=!1,J(`start`)}function q(){B&&(H=null,B.hidden=!0,document.activeElement?.blur?.())}function Ge(){B=document.body.appendChild(R(`div`)),B.id=`huvudmeny`,B.hidden=!0,B.addEventListener(`pointerdown`,e=>{e.target===B&&q()}),addEventListener(`keydown`,Xe,!0),addEventListener(`keyup`,Ze,!0)}function J(e){V=e,H=null,W=``,Z(),B.querySelector(`.hm-ruta`).scrollTop=0,B.querySelector(`button.hm-val:not([disabled]), .hm-lista button`)?.focus()}function Ke(e){if(z&&e===z.nr)return q();let t=()=>location.search=`?ovning=${e}`;z?.byggt()?Ve(`Byta övning?`,`Det du har byggt i övning ${z.nr} försvinner. Svaren på frågorna finns kvar.`,`Öppna övning ${e}`,t):t()}function Y(e,t,n,r=``){let i=R(`button`,`hm-val ${r}`.trim());return i.type=`button`,i.append(R(`span`,`hm-val-namn`,e),R(`span`,`hm-val-detalj`,t)),i.addEventListener(`click`,n),i}function X(e){let t=R(`header`,`hm-huvud`);if(V!==`start`){let e=R(`button`,`hm-tillbaka`,`‹ Tillbaka`);e.type=`button`,e.title=`Esc`,e.addEventListener(`click`,()=>J(`start`)),t.append(e)}return t.append(R(`h1`,`hm-rubrik`,e)),t}function Z(){let e=R(`div`,`hm-ruta`);switch(e.setAttribute(`role`,`dialog`),G??=De(He),V){case`start`:e.append(X(`Byggskolan`),...z?[Y(`Fortsätt`,`Övning ${z.nr} · ${z.titel} · Esc`,q,`hm-fortsatt`)]:[],Y(`Byggövningar`,`${G.length} takövningar i ordning`,()=>J(`ovningar`)),Y(`Rita möbler`,`fritt eller med AI · kommer`,()=>J(`mobler`)),Y(`Inställningar`,`färger, live watch`,()=>J(`installningar`)),Y(`Kortkommandon`,`se och ändra tangenterna`,()=>J(`tangenter`)));break;case`ovningar`:{let t=R(`ol`,`hm-lista`);for(let e of G){let n=t.appendChild(R(`li`)).appendChild(R(`button`));n.type=`button`,n.append(R(`span`,`hm-nr`,String(e.nr).padStart(2,`0`)),R(`span`,`hm-titel`,e.titel)),e.prov&&n.append(R(`span`,`hm-tagg`,`prov`)),e.nr===z?.nr&&(n.classList.add(`aktuell`),n.append(R(`span`,`hm-tagg hm-nu`,`öppen`))),n.addEventListener(`click`,()=>Ke(e.nr))}e.append(X(`Byggövningar`),R(`p`,`hm-ingress`,`Inget är låst. Esc i en övning, när inget är valt, tar fram menyn igen.`),t);break}case`mobler`:e.append(X(`Rita möbler`),R(`p`,`hm-ingress`,`Här ska du kunna rita möbler fritt eller med hjälp av AI. Det planeras i en egen chatt och kommer senare.`));break;case`installningar`:e.append(X(`Inställningar`),Je());break;case`tangenter`:e.append(X(`Kortkommandon`),Ye())}B.replaceChildren(e)}function qe(e,t,n){let r=R(`label`,`hm-rad`);return r.appendChild(R(`span`,`hm-rad-text`)).append(R(`span`,`hm-rad-namn`,e),R(`span`,`hm-rad-detalj`,t)),r.append(n),r}function Je(){let e=R(`div`,`hm-installningar`),t=R(`input`);t.type=`checkbox`,t.id=`inst-tema`,t.checked=Re(),t.addEventListener(`change`,()=>I(t.checked));let n=R(`input`);n.type=`checkbox`,n.id=`inst-live`,n.checked=he(C());let r=R(`p`,`hm-not`);return n.addEventListener(`change`,()=>{r.textContent=ge(C(),n.checked)?`Sparat. Gäller nästa gång en övning öppnas.`:`Webbläsaren sparar inte valet.`}),e.append(qe(`Verkstadsfärgerna`,`Verkstadsbokens mörka färger. Av ger appens ljusa färger.`,t),qe(`Live watch från start`,`Rutan Live watch är ibockad när en övning öppnas. På prov är den alltid av.`,n),r),e}function Ye(){let e=R(`div`);e.append(R(`p`,`hm-ingress`,`Klicka på en tangent och tryck den nya. × tar bort den. Sparas i webbläsaren och gäller direkt. Du kan också ändra dem i övningen, under Mus och tangenter.`));let t=e.appendChild(R(`table`,`hm-tangenter`)),n=R(`p`,`hm-not`,W),r=e=>{W=e,z?.nyaTangenter(),Z()};for(let e of j){let i=t.appendChild(R(`tr`));i.appendChild(R(`td`,``,e.namn));let a=i.appendChild(R(`td`)),o=F.tangent(e.id),s=a.appendChild(R(`button`,`tangent${o?``:` ingen`}`,P(o)));s.type=`button`,s.dataset.handling=e.id,s.title=`Klicka och tryck den nya tangenten`,s.addEventListener(`click`,()=>{if(H)return H=null,W=``,Z();s.textContent=`Tryck …`,s.classList.add(`fangar`),n.textContent=`Tryck den tangent du vill ha för ${e.namn}. Klicka igen för att låta bli.`,H=t=>{try{let n=F.satt(e.id,t),i=j.find(e=>e.id===n)?.namn;r(`${e.namn}: ${P(t)}.${i?` ${i} har ingen tangent nu.`:``}`)}catch(e){W=e.message,Z()}},s.blur()});let c=a.appendChild(R(`button`,`rensa`,`×`));c.type=`button`,c.title=`Ingen tangent`,c.addEventListener(`click`,()=>{H=null,F.satt(e.id,``),r(`${e.namn} har ingen tangent nu.`)})}let i=e.appendChild(R(`button`,`hm-knapp`,`Återställ alla`));return i.type=`button`,i.addEventListener(`click`,()=>{H=null,F.aterstall(),r(`Tangenterna är som från början.`)}),e.append(n,R(`p`,`hm-tips`,`Fast och går inte att ändra: siffror, komma, minus, Enter och Backspace i måttrutan, Shift som låser riktningen, och musen (högerklick menyn, mitten snurrar, Shift + mitten panorerar).`)),e}function Xe(e){if(K()&&!L()){if(e.stopImmediatePropagation(),e.key in M?e.repeat||(U=M[e.key]):U=null,H){if(e.key in M||e.key===`Shift`)return;e.preventDefault();let t=H;H=null,t(N(e))}else e.key===`Escape`&&(e.preventDefault(),V===`start`?q():J(`start`))}}function Ze(e){if(K()&&!L()&&(e.stopImmediatePropagation(),e.key in M&&U===M[e.key])){let e=U;if(U=null,H){let t=H;H=null,t(e)}}}var Qe=`modulepreload`,$e=function(e,t){return new URL(e,t).href},et={},tt=function(e){return e.pathname.endsWith(`.css`)},nt=function(e,t,n){if(t in e)return e[t];let r=n();if(!r){e[t]=void 0;return}let i=r.then(()=>{e[t]=void 0},n=>{throw e[t]=void 0,n});return e[t]=i,i},Q=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e,i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}function s(e){return import.meta.resolve?new URL(import.meta.resolve(e)):new URL(e,import.meta.url)}r=o(t.map(t=>{t=$e(t,n);let r=s(t),i=tt(r);return nt(et,r.href,()=>{if(e===void 0){e={all:new Set,styles:new Set};let t=document.getElementsByTagName(`link`);for(let n=t.length-1;n>=0;n--){let r=t[n];e.all.add(r.href),r.rel===`stylesheet`&&e.styles.add(r.href)}}if((i?e.styles:e.all).has(r.href))return;let t=document.createElement(`link`);if(t.rel=i?`stylesheet`:Qe,i||(t.as=`script`),t.crossOrigin=``,t.href=r.href,a&&t.setAttribute(`nonce`,a),document.head.appendChild(t),i)return new Promise((e,n)=>{let i=a=>{t.removeEventListener(`load`,i),t.removeEventListener(`error`,i),a.type===`error`?n(Error(`Unable to preload CSS for ${r}`)):e(a)};t.addEventListener(`load`,i),t.addEventListener(`error`,i)})})}).filter(e=>e!==void 0))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})},rt=Object.keys({"../../../wb_bygg/ovningar/01-tak72-takstolar-1-facit.txt":0,"../../../wb_bygg/ovningar/01-tak72-takstolar-1.txt":0,"../../../wb_bygg/ovningar/02-tak74-raspont-1-facit.txt":0,"../../../wb_bygg/ovningar/02-tak74-raspont-1.txt":0,"../../../wb_bygg/ovningar/03-tak76-vindskivor-1-facit.txt":0,"../../../wb_bygg/ovningar/03-tak76-vindskivor-1.txt":0,"../../../wb_bygg/ovningar/04-tak76-nockplanka-1-facit.txt":0,"../../../wb_bygg/ovningar/04-tak76-nockplanka-1.txt":0,"../../../wb_bygg/ovningar/05-tak76-rannkrokar-1-facit.txt":0,"../../../wb_bygg/ovningar/05-tak76-rannkrokar-1.txt":0,"../../../wb_bygg/ovningar/06-tak76-hangranna-1-facit.txt":0,"../../../wb_bygg/ovningar/06-tak76-hangranna-1.txt":0,"../../../wb_bygg/ovningar/07-tak76-fotplat-1-facit.txt":0,"../../../wb_bygg/ovningar/07-tak76-fotplat-1.txt":0,"../../../wb_bygg/ovningar/08-tak74-strolakt-1-facit.txt":0,"../../../wb_bygg/ovningar/08-tak74-strolakt-1.txt":0,"../../../wb_bygg/ovningar/09-tak75-pannstaplar-1-facit.txt":0,"../../../wb_bygg/ovningar/09-tak75-pannstaplar-1.txt":0,"../../../wb_bygg/ovningar/10-tak75-pannlaggning-1-facit.txt":0,"../../../wb_bygg/ovningar/10-tak75-pannlaggning-1.txt":0,"../../../wb_bygg/ovningar/11-tak75-sned-gavel-1-facit.txt":0,"../../../wb_bygg/ovningar/11-tak75-sned-gavel-1.txt":0,"../../../wb_bygg/ovningar/12-tak76-gavelbeslag-1-facit.txt":0,"../../../wb_bygg/ovningar/12-tak76-gavelbeslag-1.txt":0,"../../../wb_bygg/ovningar/13-tak76-nock-1-facit.txt":0,"../../../wb_bygg/ovningar/13-tak76-nock-1.txt":0,"../../../wb_bygg/ovningar/14-tak75-plat-lakt-1-facit.txt":0,"../../../wb_bygg/ovningar/14-tak75-plat-lakt-1.txt":0,"../../../wb_bygg/ovningar/15-tak75-platlangder-1-facit.txt":0,"../../../wb_bygg/ovningar/15-tak75-platlangder-1.txt":0,"../../../wb_bygg/ovningar/16-tak76-platdetaljer-1-facit.txt":0,"../../../wb_bygg/ovningar/16-tak76-platdetaljer-1.txt":0,"../../../wb_bygg/ovningar/17-tak7-felsok-pannor-1-facit.txt":0,"../../../wb_bygg/ovningar/17-tak7-felsok-pannor-1.txt":0,"../../../wb_bygg/ovningar/18-tak7-felsok-plat-1-facit.txt":0,"../../../wb_bygg/ovningar/18-tak7-felsok-plat-1.txt":0}).map(k).filter(e=>e!==null),$=new URLSearchParams(location.search);$.get(`bygg`)?Q(()=>import(`./byggritningvy-ZHAWXIaM.js`),__vite__mapDeps([0,1,2,3,4,5]),import.meta.url):$.has(`bygg`)?Q(()=>import(`./byggval-DydEMPYH.js`),__vite__mapDeps([6,1,2,5]),import.meta.url):(!$.has(`mobel`)&&A(location.search,rt).sort===`meny`&&We(),Q(()=>import(`./main-CQi5HQaz.js`),__vite__mapDeps([7,1,2,3,4,8]),import.meta.url)),`serviceWorker`in navigator&&navigator.serviceWorker.register(`./sw.js`).catch(()=>{});export{n as $,ae as A,h as B,fe as C,ce as D,le as E,ee as F,u as G,p as H,y as I,s as J,l as K,v as L,re as M,ne as N,se as O,te as P,r as Q,_ as R,pe as S,ue as T,f as U,m as V,d as W,a as X,o as Y,i as Z,_e as _,Re as a,me as b,j as c,P as d,t as et,k as f,he as g,ye as h,Be as i,ie as j,oe as k,N as l,O as m,We as n,ze as o,Oe as p,c as q,I as r,M as s,Ue as t,e as tt,F as u,ve as v,de as w,b as x,C as y,g as z};
+`,ve=`BYGGSKOLAN-FACIT
+id: tak74-plat-fotplat-duk-lakt-1
+---FRÅGOR---
+1. Vatten som rinner på duken ska ut på fotplåten och vidare till rännan. Ligger duken under fotplåten rinner vattnet in under plåten och ner på takfotsbrädan och i väggen. Fotplåten sitter fast i råsponten först, och duken läggs över (Plannja och Lindab).
+2. Ströläkten lyfter bärläkten från duken och ger en spalt längs fallet. Kondens, smältvatten och vatten som blåser in under plåten rinner då ner till takfoten. Ligger bärläkten direkt på duken blir den en dämning: vattnet stannar bakom läkten, kan rinna in vid spikhål och läkten ruttnar. Spalten ventilerar också undersidan av plåten.
+3. 2 varmförzinkade Trådspik 3,4x100 i varje korsning (Plannja). Spiken tar lyft från vindsug, som drar i plåten, skruvarna och läkten. Varmförzinkat för att den inte ska rosta.
+4. c/c 500 är tillverkarens största spännvidd för plåten med den snölasten. Ett längre fack kan ge nedböjning, bucklor när man går på taket och för få skruvrader. Kortare är alltid okej. Det som styr är plåtens profil och tjocklek, snölasten på orten och om taket ska vara gångbart.
+5. Underlaget den gäller för (råspont minst 17 mm, takstolar), läktdimension, ströläktens och bärläktens c/c för snölasten på orten, spik eller skruv och antal per korsning, var nedersta och översta läkten ska sitta, och om det behövs extra läkt vid takfot eller nock.
+6. Bonus: ströläkt 7 × 4,8 = 33,6 m. Bärläkt 11 × 3,6 = 39,6 m.
+---LÖSNING---
+Ströläkt 25x50 c/c 600 från vänstra gaveln, den sista kant i kant med högra. Bärläkt 25x50 kant i kant med takfoten, sedan c/c 500 upp till 4500, och den översta med övre kanten vid nocken (sista facket 200). 2 spik 100x3,4 per korsning. Läktdimension, c/c och spik är Plannjas, lägena vid takfot och nock är övningsvärden.
+---MODELL---
+del fs1 | Ströläkt 25x50 | box 0..50, 0..4800, 2..27
+del fs2 | Ströläkt 25x50 | box 600..650, 0..4800, 2..27
+del fs3 | Ströläkt 25x50 | box 1200..1250, 0..4800, 2..27
+del fs4 | Ströläkt 25x50 | box 1800..1850, 0..4800, 2..27
+del fs5 | Ströläkt 25x50 | box 2400..2450, 0..4800, 2..27
+del fs6 | Ströläkt 25x50 | box 3000..3050, 0..4800, 2..27
+del fs7 | Ströläkt 25x50 | box 3550..3600, 0..4800, 2..27
+del fl1 | Bärläkt 25x50 | box 0..3600, 0..50, 27..52
+del fl2 | Bärläkt 25x50 | box 0..3600, 500..550, 27..52
+del fl3 | Bärläkt 25x50 | box 0..3600, 1000..1050, 27..52
+del fl4 | Bärläkt 25x50 | box 0..3600, 1500..1550, 27..52
+del fl5 | Bärläkt 25x50 | box 0..3600, 2000..2050, 27..52
+del fl6 | Bärläkt 25x50 | box 0..3600, 2500..2550, 27..52
+del fl7 | Bärläkt 25x50 | box 0..3600, 3000..3050, 27..52
+del fl8 | Bärläkt 25x50 | box 0..3600, 3500..3550, 27..52
+del fl9 | Bärläkt 25x50 | box 0..3600, 4000..4050, 27..52
+del fl10 | Bärläkt 25x50 | box 0..3600, 4500..4550, 27..52
+del fl11 | Bärläkt 25x50 | box 0..3600, 4750..4800, 27..52
+`,ye=`BYGGSKOLAN-ÖVNING
+id: tak74-plat-fotplat-duk-lakt-1
+titel: Tak 7.4 N2 – plåttak: fotplåt, duk och läkt på råspont
+typ: bygg
+område: Tak
+källa: Plannja monteringsanvisning Tak- och väggprofiler 2024 (Montering läkt, Takfotsbeslag) och Lindab Coverline monteringsanvisning (Fotplåt, underlag och bärläkt). Nedersta och översta läktens läge och fotplåtens utstick är övningsvärden. Läs alltid anvisningen för din plåt.
+origo: Takfallets nedre vänstra hörn: takfoten vid vänstra gaveln, råspontens ovansida (x 0, y 0, z 0)
+---UPPGIFT---
+Det gamla taket är rivet ner till råsponten. Takfallet är utvikt: röd längs [takfoten](takfot), grön uppför fallet till [nockkanten](nockkant). Takets lutning är 40°. [Fotplåten](f1,f2) och [duken](d1) är redan lagda. Nu ska läkten upp.
+
+**Ordningen vid takfoten:** fotplåten spikas först på råsponten, c/c 500 och minst 100 omlott i skarven. Duken läggs sedan **över** fotplåten, så att vatten som rinner på duken går ut på fotplåten och inte in under den (Plannja: Takfotsbeslag, Lindab: Fotplåt, underlag och bärläkt).
+
+**Ströläkt:** går längs fallet, ovanpå duken. Den lyfter bärläkten från duken, så att vatten och fukt som kommer under plåten kan rinna ner till takfoten (Lindab: Fotplåt, underlag och bärläkt).
+
+**Bärläkt:** går längs takfoten och bär plåten. Avståndet är ett största mått ur tillverkarens tabell, och plåtens profil kan kräva tätare (Plannja: Montering läkt).
+
+**Från Plannjas tabell för träpanel, minst 17 mm (tillverkarens anvisning):**
+- Ströläkt 25x50, c/c 600.
+- Bärläkt 25x50, c/c 500.
+- 2 varmförzinkade spikar 100x3,4 där bärläkten korsar ströläkten.
+
+**Övningsvärden:**
+- Första ströläkten kant i kant med vänstra gaveln, den sista kant i kant med högra.
+- Nedersta bärläkten kant i kant med takfoten. Översta bärläkten med övre kanten vid nockkanten.
+- Mät bärläkten från nedersta läktens nedre kant. Sista mellanrummet får bli kortare än 500, aldrig längre.
+
+Lägg läkten med **Bygg → Virke** (hela längder), flytta med **G** och kopiera med **Ctrl** i Flytta: skriv 600 och sedan till exempel 5x för fem kopior till.
+---STEG---
+1. Lägg ströläkten 25x50 uppför fallet på duken, från [takfoten](takfot) till [nockkanten](nockkant): den första kant i kant med [vänstra gaveln](vänster gavel), sedan c/c 600, och den sista kant i kant med [högra gaveln](höger gavel).
+   koll s1 | Ströläkt 25x50 | box 0..50, 0..4800, 2..27
+   koll s2 | Ströläkt 25x50 | box 600..650, 0..4800, 2..27
+   koll s3 | Ströläkt 25x50 | box 1200..1250, 0..4800, 2..27
+   koll s4 | Ströläkt 25x50 | box 1800..1850, 0..4800, 2..27
+   koll s5 | Ströläkt 25x50 | box 2400..2450, 0..4800, 2..27
+   koll s6 | Ströläkt 25x50 | box 3000..3050, 0..4800, 2..27
+   koll s7 | Ströläkt 25x50 | box 3550..3600, 0..4800, 2..27 | fel Den sista ströläkten ligger kant i kant med högra gaveln
+2. Lägg den nedersta bärläkten 25x50 längs [takfoten](takfot), kant i kant med takfoten, och den översta med övre kanten vid [nockkanten](nockkant).
+   koll l1 | Bärläkt 25x50 | box 0..3600, 0..50, 27..52 | fel Nedersta läkten kant i kant med takfoten, ovanpå ströläkten
+   koll l11 | Bärläkt 25x50 | box 0..3600, 4750..4800, 27..52 | fel Det är läktens övre kant som ska ligga vid nockkanten
+3. Lägg bärläkten däremellan med c/c 500, räknat från den nedersta.
+   koll l2 | Bärläkt 25x50 | box 0..3600, 500..550, 27..52 | fel c/c 500 från nedersta läktens nedre kant
+   koll l3 | Bärläkt 25x50 | box 0..3600, 1000..1050, 27..52
+   koll l4 | Bärläkt 25x50 | box 0..3600, 1500..1550, 27..52
+   koll l5 | Bärläkt 25x50 | box 0..3600, 2000..2050, 27..52
+   koll l6 | Bärläkt 25x50 | box 0..3600, 2500..2550, 27..52
+   koll l7 | Bärläkt 25x50 | box 0..3600, 3000..3050, 27..52
+   koll l8 | Bärläkt 25x50 | box 0..3600, 3500..3550, 27..52
+   koll l9 | Bärläkt 25x50 | box 0..3600, 4000..4050, 27..52
+   koll l10 | Bärläkt 25x50 | box 0..3600, 4500..4550, 27..52
+4. Markera två Trådspik 3,4x100 i [fog A](scen Fog A – bärläkt mot ströläkt), där den andra bärläkten nerifrån korsar den andra ströläkten från vänster.
+   koll fästdon | Trådspik 3,4x100 | 2 st | box 600..650, 500..550, 42..62 | fel Två spik i korsningen, i bärläktens ovansida
+   fog: A
+---FRÅGOR---
+1. Varför spikas fotplåten före duken, och varför ska duken ligga över fotplåten och inte under?
+2. Vad gör ströläkten? Vad händer med vatten som kommer in under plåten om bärläkten ligger direkt på duken?
+3. [Fog A](scen Fog A – bärläkt mot ströläkt): Fästdon → Antal/placering → Varför (vilken kraft tar spiken i en plåttaksläkt?)
+4. Plannja skriver att c/c 500 är det största avståndet och att plåtens profil kan kräva tätare. Varför får sista mellanrummet vid nocken bli kortare men aldrig längre? Vad styr läktavståndet för en profilerad plåt?
+5. Du får en ny plåt och ett tak med ett annat underlag. Vilka värden letar du upp i anvisningen innan du spikar första läkten?
+6. *(bonus)* Hur många meter ströläkt och bärläkt går åt till takfallet (3,6 × 4,8 m) med din indelning? Räkna i Bygget → Mängder.
+---LEDTRÅDAR---
+1. Ordning | Knuff: vatten rinner nedåt. Vilket lager ska ligga överst där två lager möts?
+2. Ströläkt | Knuff: under plåten kan det bli kondens och smältvatten. Var ska det ta vägen?
+3. Fog A | Knuff: plåten är lätt. Vilken kraft är då störst på läkten?
+4. Fog A | Mer: vinden suger uppåt, och spiken ska hålla läkten nere.
+5. Läktavstånd | Knuff: plåten är en balk mellan läkterna. Vad händer med en balk när spännvidden ökar och snön ligger på?
+---PEKARE---
+takfot | linje 0,0,2 till 3600,0,2
+nockkant | linje 0,4800,2 till 3600,4800,2
+vänster gavel | linje 0,0,2 till 0,4800,2
+höger gavel | linje 3600,0,2 till 3600,4800,2
+---FOGAR---
+fog A | Bärläkt mot ströläkt | scen Fog A – bärläkt mot ströläkt
+pil A | från 5300,1022,260 till 5300,1022,760 | lyft | Vindsug lyfter läkten genom plåten
+utan A | delar e1 | flytta 0,0,300 | Utan spik i korsningen lyfter vindsuget läkten, och plåten följer med.
+---MODELL---
+del f1 | Fotplåt | box 0..2000, -30..120, 0..1
+del f2 | Fotplåt | box 1900..3600, -30..120, 0..1
+del d1 | Underlagsduk | box 0..3600, 0..4800, 1..2
+del e1 | Bärläkt 25x50 | box 4700..5900, 1000..1050, 27..52 | exempel
+del e2 | Ströläkt 25x50 | box 5300..5350, 500..1500, 2..27 | exempel
+del r1 | Råspont 20x95 | box 0..3600, 0..95, -20..0
+del r2 | Råspont 20x95 | box 0..3600, 95..190, -20..0
+del r3 | Råspont 20x95 | box 0..3600, 190..285, -20..0
+del r4 | Råspont 20x95 | box 0..3600, 285..380, -20..0
+del r5 | Råspont 20x95 | box 0..3600, 380..475, -20..0
+del r6 | Råspont 20x95 | box 0..3600, 475..570, -20..0
+del r7 | Råspont 20x95 | box 0..3600, 570..665, -20..0
+del r8 | Råspont 20x95 | box 0..3600, 665..760, -20..0
+del r9 | Råspont 20x95 | box 0..3600, 760..855, -20..0
+del r10 | Råspont 20x95 | box 0..3600, 855..950, -20..0
+del r11 | Råspont 20x95 | box 0..3600, 950..1045, -20..0
+del r12 | Råspont 20x95 | box 0..3600, 1045..1140, -20..0
+del r13 | Råspont 20x95 | box 0..3600, 1140..1235, -20..0
+del r14 | Råspont 20x95 | box 0..3600, 1235..1330, -20..0
+del r15 | Råspont 20x95 | box 0..3600, 1330..1425, -20..0
+del r16 | Råspont 20x95 | box 0..3600, 1425..1520, -20..0
+del r17 | Råspont 20x95 | box 0..3600, 1520..1615, -20..0
+del r18 | Råspont 20x95 | box 0..3600, 1615..1710, -20..0
+del r19 | Råspont 20x95 | box 0..3600, 1710..1805, -20..0
+del r20 | Råspont 20x95 | box 0..3600, 1805..1900, -20..0
+del r21 | Råspont 20x95 | box 0..3600, 1900..1995, -20..0
+del r22 | Råspont 20x95 | box 0..3600, 1995..2090, -20..0
+del r23 | Råspont 20x95 | box 0..3600, 2090..2185, -20..0
+del r24 | Råspont 20x95 | box 0..3600, 2185..2280, -20..0
+del r25 | Råspont 20x95 | box 0..3600, 2280..2375, -20..0
+del r26 | Råspont 20x95 | box 0..3600, 2375..2470, -20..0
+del r27 | Råspont 20x95 | box 0..3600, 2470..2565, -20..0
+del r28 | Råspont 20x95 | box 0..3600, 2565..2660, -20..0
+del r29 | Råspont 20x95 | box 0..3600, 2660..2755, -20..0
+del r30 | Råspont 20x95 | box 0..3600, 2755..2850, -20..0
+del r31 | Råspont 20x95 | box 0..3600, 2850..2945, -20..0
+del r32 | Råspont 20x95 | box 0..3600, 2945..3040, -20..0
+del r33 | Råspont 20x95 | box 0..3600, 3040..3135, -20..0
+del r34 | Råspont 20x95 | box 0..3600, 3135..3230, -20..0
+del r35 | Råspont 20x95 | box 0..3600, 3230..3325, -20..0
+del r36 | Råspont 20x95 | box 0..3600, 3325..3420, -20..0
+del r37 | Råspont 20x95 | box 0..3600, 3420..3515, -20..0
+del r38 | Råspont 20x95 | box 0..3600, 3515..3610, -20..0
+del r39 | Råspont 20x95 | box 0..3600, 3610..3705, -20..0
+del r40 | Råspont 20x95 | box 0..3600, 3705..3800, -20..0
+del r41 | Råspont 20x95 | box 0..3600, 3800..3895, -20..0
+del r42 | Råspont 20x95 | box 0..3600, 3895..3990, -20..0
+del r43 | Råspont 20x95 | box 0..3600, 3990..4085, -20..0
+del r44 | Råspont 20x95 | box 0..3600, 4085..4180, -20..0
+del r45 | Råspont 20x95 | box 0..3600, 4180..4275, -20..0
+del r46 | Råspont 20x95 | box 0..3600, 4275..4370, -20..0
+del r47 | Råspont 20x95 | box 0..3600, 4370..4465, -20..0
+del r48 | Råspont 20x95 | box 0..3600, 4465..4560, -20..0
+del r49 | Råspont 20x95 | box 0..3600, 4560..4655, -20..0
+del r50 | Råspont 20x95 | box 0..3600, 4655..4750, -20..0
+del r51 | Råspont 20x95 | box 0..3600, 4750..4800, -20..0
+---SCENER---
+scen Översikt | öga 1800,-3500,6000 | mål 1800,2400,0
+scen Fog A – bärläkt mot ströläkt | öga 1100,0,900 | mål 625,525,40
+scen Vid takfoten | öga 1200,-1200,800 | mål 900,100,0
+---SLUT---
+`,be=`BYGGSKOLAN-FACIT
+id: tak75-plat-forsta-langden-1
+---FRÅGOR---
+1. Ungefär 6511 (nere vänster till uppe höger) och 6492 (nere höger till uppe vänster), knappt 20 mm skillnad. Taket är snett: högra gaveln går ut cirka 30 mm på väg upp mot nocken, så hörnet uppe till höger ligger längre ut. Vänstra gaveln är rak.
+2. Profilerna är raka och varje längd följer den förra. Ligger första längden efter gaveln står alla längder snett mot takfoten: plåtändarna vid takfoten och nocken går i trappa, skarvarna vid takfoten hamnar fel mot rännan och felet växer mot andra gaveln. Rät vinkel mot takfoten håller raderna raka (Plannja och Lindab säger båda att första plåten ska ligga i 90° mot takfoten).
+3. Cirka 30 mm vid nocken (takets kant ligger 30 utanför plåtens kant). 20–30 mm tas upp av gavelbeslaget, som täcker plåtkanten och vindskivan (Plannja: Takmätning). Vid 80 mm räcker inte gavelbeslaget: då får man tänka om innan första plåten läggs, till exempel ett bredare beslag, rätta vindskivan eller fördela felet. Fråga arbetsledaren.
+4. Mät 3 m längs takfoten från hörnet och gör ett streck. Mät 4 m uppför från hörnet, ungefär i plåtens riktning, och justera tills det är exakt 5 m snett mellan strecken. Då är vinkeln rät. Är taket litet tar man 1,5-2-2,5. Vill man ha bättre noggrannhet tar man en större triangel, 6-8-10, eftersom ett litet mätfel då betyder mindre.
+5. Täckbredd och bredd, sidöverlapp och vilken kant som ligger överst, utstick vid takfoten, var man börjar och läggriktning, minsta lutning, ändöverlapp om plåten skarvas, läktavstånd och skruvschema (var och hur många skruv), och hur stor avvikelse gavelbeslaget klarar.
+6. Bonus: 4 hela längder täcker 4000. Det blir 200 kvar vid vänstra gaveln, så en femte längd kapas på längden till 300 bred (200 täckande plus 100 sidöverlapp).
+---LÖSNING---
+Diagonalerna visar att högra gaveln går ut 30 mm vid nocken. Första plåten läggs i nedre högra hörnet, kant i kant med takets ytterkant vid takfoten, 50 ut och i rät vinkel mot takfoten. Glappet 30 vid nocken täcks av gavelbeslaget. Nästa plåt läggs 1000 till vänster (täckbredden). Utsticket och övningsplåtens mått är övningsvärden.
+---MODELL---
+del fp1 | Takplåt profilerad | box 3100..4200, -50..4950, 51..71
+del fp2 | Takplåt profilerad | box 2100..3200, -50..4950, 51..71
+`,xe=`BYGGSKOLAN-ÖVNING
+id: tak75-plat-forsta-langden-1
+titel: Tak 7.5 N2 – plåttak: mät taket och lägg första längden
+typ: bygg
+område: Tak
+källa: Plannja monteringsanvisning Tak- och väggprofiler 2024 (takmätning, monteringsriktning, första takprofilen) och Lindab Coverline monteringsanvisning (montering tak). Utsticket vid takfoten och övningsplåtens mått är övningsvärden. Läs alltid anvisningen för din plåt.
+origo: Takfallets nedre vänstra hörn: takfoten vid vänstra gaveln, dukens underkant (x 0, y 0, z 0)
+---UPPGIFT---
+Ett gammalt tak har fått ny duk och läkt på råsponten, och nu ska plåten upp. Takfallet är utvikt: röd längs [takfoten](takfot), grön uppför fallet till [nockkanten](nockkant). Takets lutning är 40°. [Fotplåten](f1,f2,f3), [duken](d1), [ströläkten](s1,s2,s3,s4,s5,s6,s7,s8) och [bärläkten](l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11) ligger klara.
+
+**Mät taket först:** gamla tak är sällan raka. Mät diagonalerna från hörn till hörn. Är de lika långa är taket rakt. Skiljer de är taket snett, och då ska du veta det innan första plåten ligger (Plannja: Takmätning).
+
+**Första längden styr hela taket:** plåten läggs i rät vinkel mot takfoten, inte efter gaveln. Ligger första längden snett blir alla längder efter den sneda, och vid andra gaveln och vid nocken syns felet. Vinkeln kollar du med 3-4-5: 3 m längs takfoten, 4 m uppför, och då ska det vara 5 m snett emellan (Plannja: Takmätning och Montering av första takprofilen).
+
+**Gaveln tar upp felet:** en liten avvikelse vid gaveln, 20–30 mm, döljs av gavelbeslaget (Plannja: Takmätning). Är den större måste du tänka om innan du börjar.
+
+**Övningsplåten (övningsvärden, inte en riktig produkt):**
+- Takplåt profilerad: bredd 1100, täckbredd 1000, profilhöjd 20, längd 5000.
+- Utstick förbi takfoten: 50. Kolla alltid din plåts anvisning och var rännan sitter.
+- Du börjar vid högra gaveln, i takets nedre högra hörn (Lindab: Montering tak). Plåtens högra kant ligger kant i kant med takets ytterkant vid takfoten.
+
+Mät med **Mät ut**: klicka ett hörn och peka på ett annat, så visar etiketten avståndet. Lägg plåten med **Bygg → Plåt → Takplåt profilerad** direkt på läkten.
+---STEG---
+1. Mät båda diagonalerna på duken, från [nedre vänstra hörnet](hörn nere vänster) till [övre högra](hörn uppe höger) och från [nedre högra](hörn nere höger) till [övre vänstra](hörn uppe vänster). Skriv måtten i fråga 1.
+   visa: scen Översikt
+2. Kolla vinkeln med 3-4-5 från [nedre högra hörnet](hörn nere höger): Mät ut 3000 längs takfoten och 4000 rakt uppför, och mät mellan strecken. Mät sedan hur långt [högra gaveln](v2) ligger från din linje uppe vid nocken.
+   visa: scen Högra hörnet
+3. Lägg första takplåten i nedre högra hörnet, i rät vinkel mot takfoten, kant i kant med takets ytterkant vid takfoten och 50 ut förbi takfoten.
+   koll p1 | Takplåt profilerad | box 3100..4200, -50..4950, 51..71 | tolerans 3 | fel Rät vinkel mot takfoten, inte efter gaveln. Kolla också utsticket och var högra kanten ligger vid takfoten
+   visa: scen Högra hörnet
+4. Lägg nästa takplåt till vänster om den första, med täckbredden 1000 och samma utstick. Lägg den på läkten, inte uppe på första plåten.
+   koll p2 | Takplåt profilerad | box 2100..3200, -50..4950, 51..71 | tolerans 3 | fel Täckbredd 1000 från första plåtens högra kant, och samma utstick
+---FRÅGOR---
+1. Vilka mått fick du på diagonalerna? Vad säger skillnaden om taket, och åt vilket håll är det snett?
+2. Varför ska första längden ligga i rät vinkel mot takfoten och inte följa den sneda gaveln? Vad händer längre bort på taket om den ligger snett?
+3. Uppe vid nocken blir det ett glapp mellan plåten och [högra vindskivan](v2). Hur stort är det, hur tar du hand om det, och vad gör du om det hade varit 80 mm?
+4. Hur gör du 3-4-5 på ett riktigt tak med tumstock eller måttband? Vad gör du om taket är för litet för 3 och 4 meter, eller om du vill ha en noggrannare vinkel?
+5. Du får en ny plåt. Vilka värden letar du upp i anvisningen innan du lägger första längden?
+6. *(bonus)* Takfoten är 4200 lång och täckbredden 1000. Hur många längder går åt i bredd, och hur bred blir den sista biten vid vänstra gaveln? Räkna i Bygget → Mängder.
+---LEDTRÅDAR---
+1. Diagonal | Knuff: om taket är rakt är diagonalerna lika långa. Vilken är längst?
+2. Diagonal | Mer: den längre diagonalen går mot det hörn som ligger längre ut.
+3. Vinkel | Knuff: plåtens profiler är raka. Vad händer om den första står snett och du lägger tio till bredvid?
+4. Gavel | Knuff: vad täcker gavelbeslaget?
+5. 3-4-5 | Knuff: 6-8-10 och 1,5-2-2,5 är samma triangel.
+---PEKARE---
+takfot | linje 0,0,1 till 4200,0,1
+nockkant | linje 0,4950,1 till 4230,4950,1
+hörn nere vänster | 0,0,1
+hörn nere höger | 4200,0,1
+hörn uppe vänster | 0,4950,1
+hörn uppe höger | 4230,4950,1
+---MODELL---
+del f1 | Fotplåt | box 0..2000, -30..120, -1..0
+del f2 | Fotplåt | box 1900..3900, -30..120, -1..0
+del f3 | Fotplåt | box 3800..4200, -30..120, -1..0
+del d1 | Underlagsduk | box 0..4230, 0..4950, 0..1 | kaplinje 4200,0,0 till 4230,4950,0 behåll 2000,2000,0
+del s1 | Ströläkt 25x50 | box 0..50, 0..4950, 1..26
+del s2 | Ströläkt 25x50 | box 600..650, 0..4950, 1..26
+del s3 | Ströläkt 25x50 | box 1200..1250, 0..4950, 1..26
+del s4 | Ströläkt 25x50 | box 1800..1850, 0..4950, 1..26
+del s5 | Ströläkt 25x50 | box 2400..2450, 0..4950, 1..26
+del s6 | Ströläkt 25x50 | box 3000..3050, 0..4950, 1..26
+del s7 | Ströläkt 25x50 | box 3600..3650, 0..4950, 1..26
+del s8 | Ströläkt 25x50 | från 4175,0,1 till 4205,4950,1 | flatt
+del l1 | Bärläkt 25x50 | box 0..4200, 0..50, 26..51
+del l2 | Bärläkt 25x50 | box 0..4203, 500..550, 26..51
+del l3 | Bärläkt 25x50 | box 0..4206, 1000..1050, 26..51
+del l4 | Bärläkt 25x50 | box 0..4209, 1500..1550, 26..51
+del l5 | Bärläkt 25x50 | box 0..4212, 2000..2050, 26..51
+del l6 | Bärläkt 25x50 | box 0..4215, 2500..2550, 26..51
+del l7 | Bärläkt 25x50 | box 0..4218, 3000..3050, 26..51
+del l8 | Bärläkt 25x50 | box 0..4221, 3500..3550, 26..51
+del l9 | Bärläkt 25x50 | box 0..4224, 4000..4050, 26..51
+del l10 | Bärläkt 25x50 | box 0..4227, 4500..4550, 26..51
+del l11 | Bärläkt 25x50 | box 0..4230, 4900..4950, 26..51
+del v1 | Vindskiva 22x145 | box -22..0, 0..4950, -74..71
+del v2 | Vindskiva 22x145 | från 4211,0,-74 till 4241,4950,-74 | högkant
+---SCENER---
+scen Översikt | öga 2100,-4500,7000 | mål 2100,2500,0
+scen Högra hörnet | öga 4800,-1500,1500 | mål 3900,300,50
+scen Vid nocken | öga 4700,5600,1200 | mål 4100,4800,50
+---SLUT---
+`,v=`BYGGSKOLAN-FACIT
+id: tak75-plat-overlapp-skruv-1
+---FRÅGOR---
+1. Vattnet rinner nedåt. Ligger den övre ovanpå rinner vattnet över skarven och ut på den undre, och ligger den under rinner vattnet in i skarven. Över en läkt ligger skarven an och kan skruvas ihop med skruv i läkten. Läkten ska vara minst 90 bred eller dubbel, så att båda plåtarna får fäste och skruvarna inte hamnar i läktens kant (Plannja).
+2. På ett flackt tak rinner vattnet långsammare. Vind och kapillärkraft kan då trycka vattnet uppför in i skarven, så överlappet måste vara längre. Under 14° behövs dessutom tätning i överlappet (Lindab, Plannja).
+3. Takskruv 4,8x35 med tätbricka i profilbotten, ner i läkten. Vid plåtens ände i varannan profilbotten och vid sidöverlappet en till varje läkt (Plannja 20-105), eftersom vinden tar tag där först och kanten annars kan bändas upp. I botten ligger plåten an mot läkten, så skruven drar plåten mot läkten utan att trycka ner profilen. Tätbrickan tätar hålet.
+4. Fäster man överlappssidan först ligger plåten tätt mot grannen hela vägen. Fäster man andra sidan först kan plåten bukta eller förskjutas, och då går överlappet isär eller glipar.
+5. Plåt längre än 12 m rör sig mycket när temperaturen ändras. Ett låst ändöverlapp skulle dra i skruvarna och kunna göra hål eller buckla plåten, så den övre och den undre måste kunna röra sig var för sig (Plannja, Lindab).
+6. Nej. Plåt finns i längder upp till 10 m och längre (Plannja 20-105: 700–10000), så en 4,8 m plåt kommer i hela längder och beställs efter takfallets mått. Skarv behövs när takfallet är längre än den längsta plåten som går att få, eller som går att hantera och transportera.
+7. Bonus: 10 bottnar, var tredje ger 3 eller 4 skruv per läkt beroende på var man börjar. Med 4 per läkt blir det 5 × 4 = 20 skruv. Lindab skriver dessutom att man ska förskjuta skruvarna en profilbotten för varje läkt.
+---LÖSNING---
+Undre plåten 2700..3800 vid högra gaveln, 50 ut. Övre plåten ovanpå med 200 överlapp över den dubbla läkten. Nästa plåt till vänster med täckbredden 1000. 5 Takskruv 4,8x35 i varannan profilbotten i nedersta läkten och en skruv per läkt i sidöverlappet. Överlapp och skruvschema är Plannjas (Plannja 20-105). Övningsplåtens mått och läktens läge är övningsvärden.
+---MODELL---
+del fp1 | Takplåt profilerad | box 2700..3800, -50..2950, 52..72
+del fp2 | Takplåt profilerad | box 2700..3800, 2750..5750, 52..72
+del fp3 | Takplåt profilerad | box 1700..2800, -50..2950, 52..72
+`,y=`BYGGSKOLAN-ÖVNING
+id: tak75-plat-overlapp-skruv-1
+titel: Tak 7.5 N2 – plåttak: ändöverlapp, sidöverlapp och skruv
+typ: bygg
+område: Tak
+källa: Plannja monteringsanvisning Tak- och väggprofiler 2024 (Ändöverlapp, Teknisk information Plannja 20-105, Efterföljande profiler) och Lindab Coverline monteringsanvisning (Fastsättning, Ändöverlapp). Övningsplåtens mått, läktens läge och var plåtarna börjar är övningsvärden. Läs alltid anvisningen för din plåt.
+origo: Takfallets nedre vänstra hörn: takfoten vid vänstra gaveln, råspontens ovansida (x 0, y 0, z 0)
+---UPPGIFT---
+Ett långt takfall, 5,8 m, där plåten måste skarvas på längden. Takfallet är utvikt: röd längs [takfoten](takfot), grön uppför fallet. Takets lutning är 40°. [Duken](d1), [ströläkten](s1,s2,s3,s4,s5,s6,s7) och [bärläkten](l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14) ligger klara. Vid skarven är bärläkten [dubbel](l7,l8).
+
+**Ändöverlapp:** den övre längden ligger ovanpå den undre, så att vattnet rinner över skarven. Överlappet ska ligga över en läkt, och läkten ska vara minst 90 bred eller dubbleras. Hur långt överlappet är beror på lutningen: över 11,3° är det 200, och vid 5,7–6,3° är det 450 (Plannja: Ändöverlapp, Lindab har samma tabell). Är takfallet längre än 12 m behövs ett rörligt ändöverlapp, eftersom plåten rör sig med värmen.
+
+**Skruv:** plåten skruvas i profilbottnarna, där den ligger an mot läkten. Vid plåtens ände sitter skruven tätare än på läkterna däremellan, och vid sidöverlappet sitter det alltid en skruv i varje läkt (Plannja: Plannja 20-105). Fäst varje ny plåt hela vägen upp på överlappssidan först och sedan på andra sidan (Lindab: Fastsättning).
+
+**Från anvisningen (Plannja 20-105, samma sorts plåt som TP20):**
+- Vid plåtänden: en skruv i varannan profilbotten.
+- På läkterna däremellan: en skruv till varje läkt i var tredje profilbotten.
+- Vid sidöverlappet: alltid en skruv till varje läkt.
+- Skruv 4,8x35 i läkt.
+
+**Övningsvärden:**
+- Övningsplåten är 1100 bred med täckbredd 1000, och den har 10 profilbottnar mellan kanterna.
+- Börja vid högra gaveln. Plåten går 50 ut förbi takfoten. Den undre längden är 3000 och den övre 3000.
+
+Lägg varje längd direkt på läkten, inte uppe på grannplåten. Appen godtar några mm i höjd i överlappen.
+---STEG---
+1. Lägg den undre takplåten vid högra gaveln, kant i kant med gaveln och 50 ut förbi [takfoten](takfot).
+   koll p1 | Takplåt profilerad | box 2700..3800, -50..2950, 52..72 | tolerans 3 | fel Kant i kant med högra gaveln och 50 ut förbi takfoten
+2. Lägg den övre takplåten i samma kolumn, med 200 ändöverlapp ovanpå den undre, över den dubbla läkten.
+   koll p2 | Takplåt profilerad | box 2700..3800, 2750..5750, 52..72 | tolerans 5 | fel 200 ändöverlapp, och överlappet ska ligga över den dubbla läkten
+   fog: B
+3. Lägg nästa undre takplåt till vänster, med täckbredden 1000 och 50 ut förbi takfoten.
+   koll p3 | Takplåt profilerad | box 1700..2800, -50..2950, 52..72 | tolerans 3 | fel Täckbredd 1000, alltså 100 sidöverlapp
+4. Markera Takskruv 4,8x35 i [den nedersta läkten](l1) på den första plåten, i varannan profilbotten.
+   koll fästdon | Takskruv 4,8x35 | 5 st | box 2700..3800, 0..50, 42..62 | fel En skruv i varannan profilbotten, i botten och inte på toppen
+   fog: A
+5. Markera Takskruv 4,8x35 i sidöverlappet mellan den första och den nya plåten, en vid var och en av de tre nedersta läkterna.
+   koll fästdon | Takskruv 4,8x35 | 3 st | box 2690..2810, 0..1050, 42..82 | fel En skruv vid varje läkt i sidöverlappet
+   fog: A
+---FRÅGOR---
+1. Varför ska den övre längden ligga ovanpå den undre? Varför ska ändöverlappet ligga över en läkt, och varför ska läkten där vara minst 90 bred eller dubbel?
+2. Plannja och Lindab säger 200 i ändöverlapp över 11,3° men 450 vid 6°. Varför behövs längre överlapp när taket är flackare?
+3. [Fog A](scen Fog A – skruv vid takfoten): Fästdon → Antal/placering → Varför. Varför sitter skruvarna tätare vid plåtens ände och vid sidöverlappet, och varför i profilbotten?
+4. Lindab skriver att en ny plåt ska fästas hela vägen upp på överlappssidan först, och sedan på andra sidan. Varför?
+5. Varför måste ändöverlappet vara rörligt när takfallet är längre än 12 m?
+6. Holmgrens takfall är ungefär 4,8 m. Behöver ni skarva plåten där? Vad bestämmer om plåten kommer i hela längder eller måste skarvas?
+7. *(bonus)* Plannja säger var tredje profilbotten på läkterna däremellan. Hur många skruv blir det på den undre plåten på de fem läkterna mellan takfoten och skarven, utan sidöverlappet? Räkna i Bygget → Mängder.
+---LEDTRÅDAR---
+1. Överlapp | Knuff: åt vilket håll rinner vattnet över skarven?
+2. Överlapp | Mer: på ett flackt tak rinner vattnet långsammare och kan tryckas uppåt av vind och kapillärkraft.
+3. Fog A | Knuff: var tar vinden tag i plåten först?
+4. Fog A | Mer: plåten ligger an mot läkten i botten. En skruv på toppen trycker ner profilen.
+5. Fastsättning | Knuff: vad händer med överlappet om du skruvar mitten först och plåten buktar?
+6. Rörelse | Knuff: hur mycket längre blir en lång plåt i solen jämfört med en kall natt?
+---PEKARE---
+takfot | linje 0,0,2 till 3800,0,2
+---FOGAR---
+fog A | Skruv vid takfoten och i sidöverlappet | scen Fog A – skruv vid takfoten
+pil A | från 3300,300,300 till 3300,300,800 | lyft | Vindsug lyfter plåten vid takfoten
+utan A | delar p1 | flytta 0,0,300 | Utan skruv i varannan dal vid takfoten tar vinden tag i plåtens ände, och hela längden kan lyfta.
+fog B | Ändöverlapp | scen Fog B – ändöverlapp
+pil B | från 3300,2850,500 till 3300,2850,100 | tryck | Den övre längden ligger på den undre över läkten
+utan B | delar p1 | flytta 0,-200,0 | Med för kort överlapp eller utan läkt under kan vattnet tryckas in i skarven och plåten svikta där.
+---MODELL---
+del d1 | Underlagsduk | box 0..3800, 0..5800, 1..2
+del s1 | Ströläkt 25x50 | box 0..50, 0..5800, 2..27
+del s2 | Ströläkt 25x50 | box 600..650, 0..5800, 2..27
+del s3 | Ströläkt 25x50 | box 1200..1250, 0..5800, 2..27
+del s4 | Ströläkt 25x50 | box 1800..1850, 0..5800, 2..27
+del s5 | Ströläkt 25x50 | box 2400..2450, 0..5800, 2..27
+del s6 | Ströläkt 25x50 | box 3000..3050, 0..5800, 2..27
+del s7 | Ströläkt 25x50 | box 3750..3800, 0..5800, 2..27
+del l1 | Bärläkt 25x50 | box 0..3800, 0..50, 27..52
+del l2 | Bärläkt 25x50 | box 0..3800, 500..550, 27..52
+del l3 | Bärläkt 25x50 | box 0..3800, 1000..1050, 27..52
+del l4 | Bärläkt 25x50 | box 0..3800, 1500..1550, 27..52
+del l5 | Bärläkt 25x50 | box 0..3800, 2000..2050, 27..52
+del l6 | Bärläkt 25x50 | box 0..3800, 2500..2550, 27..52
+del l7 | Bärläkt 25x50 | box 0..3800, 2850..2900, 27..52
+del l8 | Bärläkt 25x50 | box 0..3800, 2900..2950, 27..52
+del l9 | Bärläkt 25x50 | box 0..3800, 3400..3450, 27..52
+del l10 | Bärläkt 25x50 | box 0..3800, 3900..3950, 27..52
+del l11 | Bärläkt 25x50 | box 0..3800, 4400..4450, 27..52
+del l12 | Bärläkt 25x50 | box 0..3800, 4900..4950, 27..52
+del l13 | Bärläkt 25x50 | box 0..3800, 5400..5450, 27..52
+del l14 | Bärläkt 25x50 | box 0..3800, 5750..5800, 27..52
+del v1 | Vindskiva 22x145 | box -22..0, 0..5800, -73..72
+del v2 | Vindskiva 22x145 | box 3800..3822, 0..5800, -73..72
+---SCENER---
+scen Översikt | öga 1900,-4000,7500 | mål 1900,2900,0
+scen Fog A – skruv vid takfoten | öga 3300,-1200,1200 | mål 3250,100,60
+scen Fog B – ändöverlapp | öga 4600,2200,900 | mål 3300,2850,60
+---SLUT---
+`,b=`BYGGSKOLAN-FACIT
+id: tak76-plat-gavel-nock-1
+---FRÅGOR---
+1. Gavelbeslaget ska ligga an mot både plåtens toppar och vindskivan. Sitter vindskivan för lågt hänger beslaget fritt och kan bucklas eller släppa in vatten. Sitter den för högt står beslaget snett och vattnet rinner mot vindskivan (Plannja: vindskivans överkant i höjd med profiltopparna).
+2. Takskruv 4,8x35 genom beslaget in i vindskivan, c/c 300 enligt Plannja (Lindab c/c 400 för sitt beslag). Det är anvisningen för plåten och beslagen ni har köpt som gäller. Kolla följesedeln eller tillverkarens anvisning, eller fråga arbetsledaren. Skruven tar vindsug (lyft) och vind från sidan mot gaveln.
+3. Plannja säger skruv i varannan profiltopp, Lindab i varje profiltopp. Nockplåten ligger på topparna, och en skruv i toppen drar plåt mot plåt utan att trycka ner dalen, och sitter där vattnet inte rinner. Tätningsbandet stänger de öppna dalarna mot nocken, så att snö och regn inte blåser in under nockplåten.
+4. Uppviket stänger dalen i plåtens överkant. Utan det kan vatten och snö som blåser uppför dalarna komma över plåtens kant och ner på duken.
+5. Nockplåten måste ha samma vinkel som nocken, alltså 180° − 2 × 40° = 100° mellan benen. Ett beslag för ett flackare tak passar inte. Beställ eller bocka efter takvinkeln.
+6. Bonus: varje gavel på varje fall är cirka 4,85 m. Med 100 omlott täcker 3 bitar 3 × 2000 − 2 × 100 = 5800, så det blir 3 bitar per gavel och fall: 2 gavlar × 2 fall × 3 = 12 bitar. Nocken 3,8 m: 2 × 2000 − 200 = 3800, alltså 2 nockplåtar.
+---LÖSNING---
+Gavelbeslaget börjar vid plåtens nedre ände med kanten ner utanför vindskivan. Nästa bit ovanpå med 100 omlott. 6 Takskruv 4,8x35 c/c 300 från 100 över nedre änden upp till skarven. Nockplåten mitt över nocken på tätningen, från högra vindskivans utsida, nästa bit ovanpå med 200 omlott. Skruvavstånd och omlott är Plannjas, beslagens bredd och var bitarna börjar är övningsvärden.
+---MODELL---
+del fg1 | Gavelbeslag | box 3578..3778, -50..1950, 72..73
+del fg2 | Gavelbeslag | box 3578..3778, 1850..3850, 73..74
+del fk1 | Nockplåt | box 1778..3778, 4600..5000, 92..93
+del fk2 | Nockplåt | box -22..1978, 4600..5000, 93..94
+`,x=`BYGGSKOLAN-ÖVNING
+id: tak76-plat-gavel-nock-1
+titel: Tak 7.6 N2 – plåttak: gavelbeslag och nockplåt
+typ: bygg
+område: Tak
+källa: Plannja monteringsanvisning Tak- och väggprofiler 2024 (Takfotsbeslag, Gavelbeslag, Nockbeslag) och Lindab Coverline monteringsanvisning (Beslag). Beslagens bredd, nocktätningens läge, var bitarna börjar och övningsplåtens mått är övningsvärden. Läs alltid anvisningen för din plåt.
+origo: Takfallets nedre vänstra hörn: takfoten vid vänstra gaveln, råspontens ovansida (x 0, y 0, z 0)
+---UPPGIFT---
+Plåten ligger på takfallet, och nu ska gaveln och nocken tätas. Takfallet är utvikt: röd längs [takfoten](takfot), grön uppför fallet till [nocklinjen](nocklinje). Takets lutning är 40°. [Takplåtarna](t1,t2,t3,t4), [vindskivorna](v1,v2) och [nocktätningen](n0) ligger klara.
+
+**Vindskivan:** monteras med överkanten i höjd med plåtens profiltoppar, så att gavelbeslaget ligger plant över plåten och vindskivan (Plannja: Takfotsbeslag).
+
+**Gavelbeslag:** täcker plåtens kant och vindskivan. Det skruvas i vindskivan och skarvas 100 omlott. Den övre biten ligger ovanpå den undre, så att vattnet rinner över skarven (Plannja: Gavelbeslag). Lindab skriver c/c 400 för sitt beslag. Det är anvisningen för din plåt som gäller.
+
+**Nock:** tätningsband läggs på plåten och nockplåten ovanpå. Nockplåten skruvas i profiltopparna, och skarven är 200 omlott. Profilbotten viks upp i plåtens överkant (Plannja: Nockbeslag, Lindab: Beslag).
+
+**Från anvisningen (Plannja):**
+- Gavelbeslag: Takskruv 4,8x35 c/c 300 i vindskivan, skarv 100 omlott.
+- Nockplåt: tätningsband under, skruv i varannan profiltopp, skarv 200 omlott.
+
+**Övningsvärden:**
+- Gavelbeslaget är 200 brett. Kanten som viks ner ska ligga utanför [högra vindskivan](v2). Börja vid plåtens nedre ände. Första skruven 100 från nedre änden.
+- Nockplåten är 400 bred och läggs mitt över [nocklinjen](nocklinje). Börja vid högra gaveln, med kortändan kant i kant med vindskivans utsida.
+
+Lägg beslagen med **Bygg → Plåt**. Lägg dem ovanpå plåten och ovanpå varandra, inte under.
+---STEG---
+1. Lägg det nedre gavelbeslaget längs [högra gaveln](höger gavel), med kanten ner utanför vindskivan, från plåtens nedre ände.
+   koll g1 | Gavelbeslag | box 3578..3778, -50..1950, 72..73 | tolerans 3 | fel Kanten ner ska ligga mot vindskivans utsida, och beslaget börjar vid plåtens nedre ände
+   fog: A
+2. Lägg nästa gavelbeslag ovanför, ovanpå det nedre med 100 omlott.
+   koll g2 | Gavelbeslag | box 3578..3778, 1850..3850, 73..74 | tolerans 4 | fel Den övre biten ligger ovanpå den undre, 100 omlott
+   fog: A
+3. Markera Takskruv 4,8x35 i det nedre gavelbeslaget, genom beslaget in i vindskivan, c/c 300 med den första 100 från nedre änden, upp till skarven.
+   koll fästdon | Takskruv 4,8x35 | 6 st | box 3578..3790, 40..1800, -80..85 | fel c/c 300 längs beslaget, första 100 från nedre änden
+   fog: A
+4. Lägg den första nockplåten mitt över [nocklinjen](nocklinje), ovanpå [nocktätningen](n0), med kortändan kant i kant med högra vindskivans utsida.
+   koll k1 | Nockplåt | box 1778..3778, 4600..5000, 92..93 | tolerans 3 | fel Mitt över nocklinjen och kortändan vid vindskivans utsida
+   fog: B
+5. Lägg nästa nockplåt till vänster, ovanpå den första med 200 omlott.
+   koll k2 | Nockplåt | box -22..1978, 4600..5000, 93..94 | tolerans 4 | fel 200 omlott, och den nya biten ligger ovanpå
+   fog: B
+---FRÅGOR---
+1. Varför ska vindskivans överkant ligga i höjd med plåtens profiltoppar? Vad händer med gavelbeslaget om vindskivan sitter för lågt eller för högt?
+2. [Fog A](scen Fog A – gavelbeslag): Fästdon → Antal/placering → Varför. Plannja säger c/c 300 och Lindab c/c 400. Vilket gäller på Holmgrens tak, och hur tar du reda på det?
+3. [Fog B](scen Fog B – nock): Fästdon → Antal/placering → Varför. Varför skruvas nockplåten i profiltopparna och inte i dalarna, och vad gör tätningsbandet?
+4. Varför viks profilbotten upp i plåtens överkant vid nocken? Vad kan hända annars när det blåser snö?
+5. Taket på Holmgrens hus lutar 40°. Vad betyder lutningen för nockplåten när du beställer den eller bockar den?
+6. *(bonus)* Takfallet är 4,8 m och plåten går 50 ut förbi takfoten. Hur många 2-metersbitar gavelbeslag går åt till båda gavlarna på båda takfallen, med 100 omlott? Hur många nockplåtar går åt till en nock som är 3,8 m med 200 omlott? Räkna i Bygget → Mängder.
+---LEDTRÅDAR---
+1. Gavel | Knuff: beslaget ska ligga an mot två saker samtidigt. Vilka?
+2. Fog A | Knuff: vinden tar i gaveln både underifrån och från sidan.
+3. Fog A | Mer: två anvisningar säger olika, och då gäller den för plåten du lägger.
+4. Fog B | Knuff: var rinner vattnet, i dalen eller på toppen?
+5. Fog B | Mer: i nocken ligger nockplåten på topparna. Skruven ska dra plåt mot plåt utan att trycka ner en dal.
+6. Uppvik | Knuff: titta på plåten uppifrån nocken. Är dalarna öppna?
+---PEKARE---
+takfot | linje 0,0,2 till 3756,0,2
+nocklinje | linje 0,4800,2 till 3756,4800,2
+höger gavel | linje 3756,0,72 till 3756,4800,72
+---FOGAR---
+fog A | Gavelbeslag i vindskivan | scen Fog A – gavelbeslag
+pil A | från 4300,1000,100 till 3900,1000,100 | skjuv | Vinden trycker mot gaveln
+pil A | från 4000,1500,100 till 4000,1500,600 | lyft | Vindsug vid gaveln
+utan A | delar t1 | flytta 150,0,180 | Utan skruv i vindskivan tar vinden tag i beslaget, och sedan i plåtens kant.
+fog B | Nockplåt med tätning | scen Fog B – nock
+pil B | från 2400,4700,500 till 2400,4700,120 | tryck | Nockplåten klämmer tätningen mot plåten
+utan B | delar t1,t2 | flytta 0,0,180 | Utan tätning och uppvik blåser snö och regn in genom dalarna och ner under nockplåten.
+---MODELL---
+del d1 | Underlagsduk | box 0..3756, 0..4800, 1..2
+del s1 | Ströläkt 25x50 | box 0..50, 0..4800, 2..27
+del s2 | Ströläkt 25x50 | box 600..650, 0..4800, 2..27
+del s3 | Ströläkt 25x50 | box 1200..1250, 0..4800, 2..27
+del s4 | Ströläkt 25x50 | box 1800..1850, 0..4800, 2..27
+del s5 | Ströläkt 25x50 | box 2400..2450, 0..4800, 2..27
+del s6 | Ströläkt 25x50 | box 3000..3050, 0..4800, 2..27
+del s7 | Ströläkt 25x50 | box 3600..3650, 0..4800, 2..27
+del s8 | Ströläkt 25x50 | box 3706..3756, 0..4800, 2..27
+del l1 | Bärläkt 25x50 | box 0..3756, 0..50, 27..52
+del l2 | Bärläkt 25x50 | box 0..3756, 500..550, 27..52
+del l3 | Bärläkt 25x50 | box 0..3756, 1000..1050, 27..52
+del l4 | Bärläkt 25x50 | box 0..3756, 1500..1550, 27..52
+del l5 | Bärläkt 25x50 | box 0..3756, 2000..2050, 27..52
+del l6 | Bärläkt 25x50 | box 0..3756, 2500..2550, 27..52
+del l7 | Bärläkt 25x50 | box 0..3756, 3000..3050, 27..52
+del l8 | Bärläkt 25x50 | box 0..3756, 3500..3550, 27..52
+del l9 | Bärläkt 25x50 | box 0..3756, 4000..4050, 27..52
+del l10 | Bärläkt 25x50 | box 0..3756, 4500..4550, 27..52
+del l11 | Bärläkt 25x50 | box 0..3756, 4750..4800, 27..52
+del t1 | Takplåt profilerad | box 2656..3756, -50..4750, 52..72
+del t2 | Takplåt profilerad | box 1656..2756, -50..4750, 52..72
+del t3 | Takplåt profilerad | box 656..1756, -50..4750, 52..72
+del t4 | Takplåt profilerad | box 0..756, -50..4750, 52..72
+del n0 | Nocktätning | box 0..3756, 4650..4700, 72..92
+del v1 | Vindskiva 22x145 | box -22..0, 0..4800, -73..72
+del v2 | Vindskiva 22x145 | box 3756..3778, 0..4800, -73..72
+---SCENER---
+scen Översikt | öga 1900,-3500,6500 | mål 1900,2400,0
+scen Fog A – gavelbeslag | öga 4700,700,900 | mål 3700,1000,60
+scen Fog B – nock | öga 3000,3600,1200 | mål 2600,4750,80
+---SLUT---
+`,Se=`byggskolan-live`;function S(e){try{return e?.getItem(Se)!==`av`}catch{return!0}}function Ce(e,t){try{return e?(e.setItem(Se,t?`pa`:`av`),!0):!1}catch{return!1}}var C=`byggskolan-senaste-ovning`;function we(e){try{let t=e?.getItem(C);return t&&/^\d+$/.test(t)?Number(t):null}catch{return null}}function Te(e,t){try{e?.setItem(C,String(t))}catch{}}function w(){try{return window.localStorage}catch{return null}}function Ee(e){return!e.mattBuffer&&e.iValj&&!e.escGjordeNagot}var T=e=>{let t=Number(e.trim().replace(`,`,`.`));if(e.trim()===``||Number.isNaN(t))throw Error(`Inte ett tal: ${e}`);return t},De=e=>e.split(`,`).map(T);function E(e){let t=e.split(`,`).map(e=>{let t=Number(e.trim());if(e.trim()===``||Number.isNaN(t))throw Error(`Inte ett tal: ${e}`);return t});if(t.length!==3)throw Error(`Punkten ska ha x,y,z: ${e}`);return[t[0],t[1],t[2]]}function Oe(e){let t=e.trim().match(/^(-?[\d.]+)\s*\.\.\s*(-?[\d.]+)$/);if(!t)throw Error(`Intervallet ska vara a..b: ${e}`);return[Number(t[1]),Number(t[2])]}function D(e,t){let n=e.split(`,`).map(Oe);if(n.length!==3)throw Error(`${t}: box ska ha tre intervall.`);return[n[0],n[1],n[2]]}function ke(e,t=`BYGGSKOLAN-ÖVNING`){let n=e.replace(/^﻿/,``).split(/\r?\n/);for(;n.length&&!n[0].trim();)n.shift();if(!(n.shift()??``).trim().toUpperCase().startsWith(t))throw Error(`Blocket måste börja med ${t}.`);let r={},i={},a=null;for(let e of n){let t=e.trim(),n=t.match(/^-{3,}\s*([A-ZÅÄÖ]+)\s*-{3,}$/i);if(n){let e=n[1].toUpperCase();if(e===`SLUT`)break;a=i[e]=[]}else if(a)a.push(e);else if(t&&!t.startsWith(`#`)){let e=t.match(/^([a-zåäö]+)\s*:\s*(.*)$/i);e&&(r[e[1].toLowerCase()]=e[2].trim())}}return{huvud:r,sektioner:i}}function O(e){let t=e.split(`|`).map(e=>e.trim()),n=t.shift().replace(/^del\s*/i,``),r=t.shift()??``,i=t.shift()??``,a={id:n,namn:r,exempel:!1,miljo:!1,kap:[],kaplinje:[],urtag:[]},o=i.match(/^box\s+(.+)$/i),s=i.match(/^från\s+(.+?)\s+till\s+(.+)$/i),c=i.match(/^vid\s+(.+)$/i);if(o)a.box=D(o[1],`del ${n}`);else if(s){a.fran=E(s[1]),a.till=E(s[2]);let e=(t.shift()??``).toLowerCase();if(e!==`högkant`&&e!==`flatt`)throw Error(`del ${n}: efter från/till ska det stå högkant eller flatt.`);a.lage=e}else if(c)for(a.vid=E(c[1]);/^[xyz]\s+\S/i.test(t[0]??``);)t.shift();else throw Error(`del ${n}: tredje fältet ska börja med box, från eller vid.`);for(let e of t){let t=e.match(/^kaplinje\s+(.+?)\s+till\s+(.+?)\s+behåll\s+(.+)$/i),r=e.match(/^kap\s+([xyz])\s*([<>])\s*(-?[\d.]+)$/i),i=e.match(/^urtag\s+box\s+(.+)$/i),o=e.match(/^färg\s+(.+)$/i),s=e.match(/^tagg\s+(.+)$/i);if(t)a.kaplinje.push({fran:E(t[1]),till:E(t[2]),behall:E(t[3])});else if(/^kaplinje\b/i.test(e))throw Error(`del ${n}: kaplinje ska skrivas 'kaplinje x1,y1,z1 till x2,y2,z2 behåll x,y,z'.`);else if(r){let e=`xyz`.indexOf(r[1].toLowerCase());a.kap.push({axel:e,behall:r[2],varde:Number(r[3])})}else if(/^kap\b/i.test(e))throw Error(`del ${n}: kap ska skrivas t.ex. 'kap y<1200' (behåll y under 1200).`);else i?a.urtag.push(D(i[1],`del ${n}: urtag`)):/^exempel$/i.test(e)?a.exempel=!0:/^miljö$/i.test(e)?a.exempel=a.miljo=!0:o?a.farg=De(o[1]):s&&(a.tagg=s[1].trim(),/^exempel$/i.test(a.tagg)&&(a.exempel=!0))}return a}function Ae(e,t){let n=e.split(`|`).map(e=>e.trim()),r=n[0].replace(/^koll\s*/i,``),i={},a=e=>{let[t,...n]=e.split(/\s+/),r=n.join(` `).trim();if(/^fel$/i.test(t))i.fel=r;else if(/^tolerans$/i.test(t))i.tolerans=T(r.replace(/mm$/i,``));else throw Error(`koll: förstår inte '${e}' (fel <text> eller tolerans <mm>).`)};if(/^schakt$/i.test(r)){let e=(n[1]??``).match(/^box\s+(.+)$/i);if(!e)throw Error(`koll schakt: andra fältet ska vara "box x0..x1, y0..y1, z0..z1".`);let r=!1;for(let e of n.slice(2).filter(Boolean))/^rund$/i.test(e)?r=!0:a(e);return{typ:`schakt`,nyckel:t(),box:D(e[1],`koll schakt`),rund:r,...i}}if(/^f[äa]stdon$/i.test(r)){let e=n[1]??``;if(!e)throw Error(`koll fästdon: namn saknas.`);let r=(n[2]??``).match(/^(\d+)\s*(st)?$/i);if(!r)throw Error(`koll fästdon: tredje fältet ska vara antal, t.ex. "6 st".`);let o=(n[3]??``).match(/^box\s+(.+)$/i);if(!o)throw Error(`koll fästdon: fjärde fältet ska vara "box x0..x1, y0..y1, z0..z1".`);return n.slice(4).filter(Boolean).forEach(a),{typ:`fästdon`,nyckel:t(),namn:e,antal:Number(r[1]),box:D(o[1],`koll fästdon`),...i}}let o=O(n.filter((e,t)=>t===0||!/^(fel|tolerans)(\s|$)/i.test(e)||(a(e),!1)).join(` | `).replace(/^koll/i,`del`));return{typ:`del`,nyckel:t(o.id),del:o,...i}}function je(e){let t=[];for(let n of e){let e=n.trim(),r=e.match(/^(\d+)\s*[.):]\s*(.*)$/),i=t[t.length-1];if(r)t.push({nr:Number(r[1]),text:r[2],koll:[]});else if(i&&/^koll\s/i.test(e)){let t=i.koll.length;i.koll.push(Ae(e,e=>e?`${i.nr}/${e}`:`${i.nr}/#${t}`))}else i&&/^fog\s*:/i.test(e)&&(i.fog=e.replace(/^fog\s*:/i,``).trim())}return t}function Me(e){let t=e.split(`|`).map(e=>e.trim()),n=t.find(e=>/^öga\s/i.test(e)),r=t.find(e=>/^mål\s/i.test(e));return!n||!r?null:{namn:t[0].replace(/^scen\s*/i,``),oga:E(n.replace(/^öga\s+/i,``)),mal:E(r.replace(/^mål\s+/i,``))}}var Ne=e=>e.filter(e=>/^del\s/i.test(e.trim())).map(e=>O(e.trim()));function k(e){let{huvud:t,sektioner:n}=ke(e),r=e=>(n[e]??[]).filter(e=>e.trim());return{id:t.id??``,titel:t.titel??``,typ:t.typ??``,kalla:t.källa??``,origo:t.origo??``,prov:/^ja$/i.test(t.prov??``),uppgift:(n.UPPGIFT??[]).join(`
+`).trim(),steg:je(n.STEG??[]),fragor:r(`FRÅGOR`).map(e=>e.trim().replace(/^\d+\.\s*/,``)),delar:Ne(r(`MODELL`)),scener:r(`SCENER`).map(Me).filter(e=>e!==null)}}function A(e){let t=e.split(`/`).pop();if(t.endsWith(`-facit.txt`))return null;let n=/^(\d+)-.*\.txt$/.exec(t);return n?Number(n[1]):null}function Pe(e){let t=[];for(let[n,r]of Object.entries(e)){let e=A(n);if(e===null)continue;let i=``,a=!1;try{let e=k(r);i=e.titel,a=!!e.prov}catch{}i||=n.split(`/`).pop().replace(/^\d+-/,``).replace(/\.txt$/,``),t.push({nr:e,titel:i,prov:a})}return t.sort((e,t)=>e.nr-t.nr)}function Fe(e,t,n){let r=j(e,t);return r.sort===`ovning`?r.nr:n!==null&&t.includes(n)?n:t.includes(11)?11:t[0]}function j(e,t){let n=new URLSearchParams(e).get(`ovning`);if(n===null||!/^\d+$/.test(n.trim()))return{sort:`meny`};let r=Number(n);return t.includes(r)?{sort:`ovning`,nr:r}:{sort:`meny`}}var M=[{id:`meny`,namn:`Menyn`,standard:`§`},{id:`flytta`,namn:`Flytta`,standard:`G`},{id:`kopiera`,namn:`Kopiera i Flytta (av och på)`,standard:`Ctrl`},{id:`matUt`,namn:`Mät ut`,standard:``},{id:`kapa`,namn:`Kapa`,standard:`X`},{id:`taBort`,namn:`Ta bort valda`,standard:`Delete`},{id:`valjAlla`,namn:`Välj alla du lagt`,standard:`Ctrl+A`},{id:`angra`,namn:`Ångra`,standard:`Ctrl+Z`},{id:`gorOm`,namn:`Gör om`,standard:`Ctrl+Y`},{id:`avbryt`,namn:`Avmarkera, börja om, sluta`,standard:`Escape`},{id:`vrid`,namn:`Vrid 90° när du lägger`,standard:`Tab`},{id:`fastpunkt`,namn:`Byt fästpunkt när du lägger, byt snitt i Kapa`,standard:`ArrowUp`},{id:`klyv`,namn:`Kap tvärs eller klyvning i Kapa`,standard:`ArrowLeft`},{id:`andraMatt`,namn:`Ändra mått (möbler, dra en yta)`,standard:`P`}],N={Control:`Ctrl`,Alt:`Alt`,Meta:`Ctrl`},Ie=e=>/^[0-9.,\-*]$/.test(e)||e===`Enter`||e===`Backspace`||e===`Shift`;function Le(e){if(e.key in N||e.key===`Shift`)return``;let t=e.key.length===1,n=t?e.key.toUpperCase():e.key,r=[];return(e.ctrlKey||e.metaKey)&&r.push(`Ctrl`),e.altKey&&r.push(`Alt`),e.shiftKey&&(!t||/^\p{L}$/u.test(e.key))&&r.push(`Shift`),r.push(n===` `?`Space`:n),r.join(`+`)}var Re={Escape:`Esc`,ArrowUp:`Pil upp`,ArrowDown:`Pil ned`,ArrowLeft:`Pil vänster`,ArrowRight:`Pil höger`,Space:`Mellanslag`},P=e=>e?e.split(`+`).map(e=>Re[e]??e).join(`+`):`ingen`,ze=class{lagra;val;constructor(e){this.lagra=e,this.val=Object.fromEntries(M.map(e=>[e.id,e.standard]));try{let t=JSON.parse(e?.las()??`{}`);for(let e of M)typeof t[e.id]==`string`&&(this.val[e.id]=t[e.id])}catch{}}tangent(e){return this.val[e]}namn(e){return this.val[e]?P(this.val[e]):`–`}handling(e){return e?M.find(t=>this.val[t.id]===e)?.id??null:null}satt(e,t){if(t&&Ie(t))throw Error(`${P(t)} används av måttrutan.`);let n=t?this.handling(t):null;return n&&n!==e&&(this.val[n]=``),this.val[e]=t,this.spara(),n&&n!==e?n:null}aterstall(){for(let e of M)this.val[e.id]=e.standard;this.spara()}spara(){this.lagra?.skriv(JSON.stringify(this.val))}};function Be(){return{las(){try{return localStorage.getItem(`byggskolan.tangenter`)}catch{return null}},skriv(e){try{localStorage.setItem(`byggskolan.tangenter`,e)}catch{}}}}var F=new ze(typeof localStorage>`u`?void 0:Be()),Ve=`byggskolan-tema`;function He(e){try{return e?.getItem(Ve)!==`av`}catch{return!0}}function Ue(e,t){try{e?.setItem(Ve,t?`verkstad`:`av`)}catch{}}function We(){try{return window.localStorage}catch{return null}}var Ge=[];function Ke(){return document.documentElement.dataset.tema===`verkstad`}function qe(e){Ge.push(e)}function I(e,t=!0){e?document.documentElement.dataset.tema=`verkstad`:delete document.documentElement.dataset.tema,t&&Ue(We(),e);for(let t of Ge)t(e)}function Je(){I(He(We()),!1)}var L=()=>!!document.getElementById(`till-menyn`);function Ye(e,t,n,r){if(L())return;let i=document.createElement(`div`);i.id=`till-menyn`;let a=i.appendChild(document.createElement(`div`));a.setAttribute(`role`,`dialog`);let o=a.appendChild(document.createElement(`h2`));o.textContent=e;let s=a.appendChild(document.createElement(`p`));s.textContent=t;let c=a.appendChild(document.createElement(`div`));c.className=`knappar`;let l=c.appendChild(document.createElement(`button`));l.type=`button`,l.className=`ga`,l.textContent=n;let u=c.appendChild(document.createElement(`button`));u.type=`button`,u.className=`stanna`,u.textContent=`Stanna`;let d=()=>{removeEventListener(`keydown`,f,!0),i.remove()},f=e=>{if(e.key!==`Tab`&&(e.preventDefault(),e.stopImmediatePropagation(),e.key===`Escape`||e.key===`Enter`||e.key===` `)){if(e.key!==`Escape`&&document.activeElement===l)return d(),r();d()}};l.addEventListener(`click`,()=>{d(),r()}),u.addEventListener(`click`,d),i.addEventListener(`pointerdown`,e=>{e.target===i&&d()}),addEventListener(`keydown`,f,!0),document.body.append(i),u.focus()}var Xe=Object.assign({"../../../wb_bygg/ovningar/01-tak72-takstolar-1-facit.txt":e,"../../../wb_bygg/ovningar/01-tak72-takstolar-1.txt":t,"../../../wb_bygg/ovningar/02-tak74-raspont-1-facit.txt":n,"../../../wb_bygg/ovningar/02-tak74-raspont-1.txt":r,"../../../wb_bygg/ovningar/03-tak76-vindskivor-1-facit.txt":i,"../../../wb_bygg/ovningar/03-tak76-vindskivor-1.txt":a,"../../../wb_bygg/ovningar/04-tak76-nockplanka-1-facit.txt":o,"../../../wb_bygg/ovningar/04-tak76-nockplanka-1.txt":s,"../../../wb_bygg/ovningar/05-tak76-rannkrokar-1-facit.txt":c,"../../../wb_bygg/ovningar/05-tak76-rannkrokar-1.txt":l,"../../../wb_bygg/ovningar/06-tak76-hangranna-1-facit.txt":u,"../../../wb_bygg/ovningar/06-tak76-hangranna-1.txt":d,"../../../wb_bygg/ovningar/07-tak76-fotplat-1-facit.txt":f,"../../../wb_bygg/ovningar/07-tak76-fotplat-1.txt":p,"../../../wb_bygg/ovningar/08-tak74-strolakt-1-facit.txt":m,"../../../wb_bygg/ovningar/08-tak74-strolakt-1.txt":h,"../../../wb_bygg/ovningar/09-tak75-pannstaplar-1-facit.txt":g,"../../../wb_bygg/ovningar/09-tak75-pannstaplar-1.txt":_,"../../../wb_bygg/ovningar/10-tak75-pannlaggning-1-facit.txt":ee,"../../../wb_bygg/ovningar/10-tak75-pannlaggning-1.txt":te,"../../../wb_bygg/ovningar/11-tak75-sned-gavel-1-facit.txt":ne,"../../../wb_bygg/ovningar/11-tak75-sned-gavel-1.txt":re,"../../../wb_bygg/ovningar/12-tak76-gavelbeslag-1-facit.txt":ie,"../../../wb_bygg/ovningar/12-tak76-gavelbeslag-1.txt":ae,"../../../wb_bygg/ovningar/13-tak76-nock-1-facit.txt":oe,"../../../wb_bygg/ovningar/13-tak76-nock-1.txt":se,"../../../wb_bygg/ovningar/14-tak75-plat-lakt-1-facit.txt":ce,"../../../wb_bygg/ovningar/14-tak75-plat-lakt-1.txt":le,"../../../wb_bygg/ovningar/15-tak75-platlangder-1-facit.txt":ue,"../../../wb_bygg/ovningar/15-tak75-platlangder-1.txt":de,"../../../wb_bygg/ovningar/16-tak76-platdetaljer-1-facit.txt":fe,"../../../wb_bygg/ovningar/16-tak76-platdetaljer-1.txt":pe,"../../../wb_bygg/ovningar/17-tak7-felsok-pannor-1-facit.txt":me,"../../../wb_bygg/ovningar/17-tak7-felsok-pannor-1.txt":he,"../../../wb_bygg/ovningar/18-tak7-felsok-plat-1-facit.txt":ge,"../../../wb_bygg/ovningar/18-tak7-felsok-plat-1.txt":_e,"../../../wb_bygg/ovningar/19-tak74-plat-fotplat-duk-lakt-1-facit.txt":ve,"../../../wb_bygg/ovningar/19-tak74-plat-fotplat-duk-lakt-1.txt":ye,"../../../wb_bygg/ovningar/20-tak75-plat-forsta-langden-1-facit.txt":be,"../../../wb_bygg/ovningar/20-tak75-plat-forsta-langden-1.txt":xe,"../../../wb_bygg/ovningar/21-tak75-plat-overlapp-skruv-1-facit.txt":v,"../../../wb_bygg/ovningar/21-tak75-plat-overlapp-skruv-1.txt":y,"../../../wb_bygg/ovningar/23-tak76-plat-gavel-nock-1-facit.txt":b,"../../../wb_bygg/ovningar/23-tak76-plat-gavel-nock-1.txt":x}),R=(e,t,n)=>{let r=document.createElement(e);return t&&(r.className=t),n!==void 0&&(r.textContent=n),r},z=null,B=null,V=`start`,H=null,U=null,W=``,G=null;function Ze(e){z=e,K()&&V===`start`&&J(`start`)}var K=()=>!!B&&!B.hidden;function Qe(){B||$e(),B.hidden=!1,J(`start`)}function q(){B&&(H=null,B.hidden=!0,document.activeElement?.blur?.())}function $e(){B=document.body.appendChild(R(`div`)),B.id=`huvudmeny`,B.hidden=!0,B.addEventListener(`pointerdown`,e=>{e.target===B&&q()}),addEventListener(`keydown`,it,!0),addEventListener(`keyup`,at,!0)}function J(e){V=e,H=null,W=``,Z(),B.querySelector(`.hm-ruta`).scrollTop=0,B.querySelector(`button.hm-val:not([disabled]), .hm-lista button`)?.focus()}function et(e){if(z&&e===z.nr)return q();let t=()=>location.search=`?ovning=${e}`;z?.byggt()?Ye(`Byta övning?`,`Det du har byggt i övning ${z.nr} försvinner. Svaren på frågorna finns kvar.`,`Öppna övning ${e}`,t):t()}function Y(e,t,n,r=``){let i=R(`button`,`hm-val ${r}`.trim());return i.type=`button`,i.append(R(`span`,`hm-val-namn`,e),R(`span`,`hm-val-detalj`,t)),i.addEventListener(`click`,n),i}function X(e){let t=R(`header`,`hm-huvud`);if(V!==`start`){let e=R(`button`,`hm-tillbaka`,`‹ Tillbaka`);e.type=`button`,e.title=`Esc`,e.addEventListener(`click`,()=>J(`start`)),t.append(e)}return t.append(R(`h1`,`hm-rubrik`,e)),t}function Z(){let e=R(`div`,`hm-ruta`);switch(e.setAttribute(`role`,`dialog`),G??=Pe(Xe),V){case`start`:e.append(X(`Byggskolan`),...z?[Y(`Fortsätt`,`Övning ${z.nr} · ${z.titel} · Esc`,q,`hm-fortsatt`)]:[],Y(`Byggövningar`,`${G.length} takövningar i ordning`,()=>J(`ovningar`)),Y(`Rita möbler`,`fritt eller med AI · kommer`,()=>J(`mobler`)),Y(`Inställningar`,`färger, live watch`,()=>J(`installningar`)),Y(`Kortkommandon`,`se och ändra tangenterna`,()=>J(`tangenter`)));break;case`ovningar`:{let t=R(`ol`,`hm-lista`);for(let e of G){let n=t.appendChild(R(`li`)).appendChild(R(`button`));n.type=`button`,n.append(R(`span`,`hm-nr`,String(e.nr).padStart(2,`0`)),R(`span`,`hm-titel`,e.titel)),e.prov&&n.append(R(`span`,`hm-tagg`,`prov`)),e.nr===z?.nr&&(n.classList.add(`aktuell`),n.append(R(`span`,`hm-tagg hm-nu`,`öppen`))),n.addEventListener(`click`,()=>et(e.nr))}e.append(X(`Byggövningar`),R(`p`,`hm-ingress`,`Inget är låst. Esc i en övning, när inget är valt, tar fram menyn igen.`),t);break}case`mobler`:e.append(X(`Rita möbler`),R(`p`,`hm-ingress`,`Här ska du kunna rita möbler fritt eller med hjälp av AI. Det planeras i en egen chatt och kommer senare.`));break;case`installningar`:e.append(X(`Inställningar`),nt());break;case`tangenter`:e.append(X(`Kortkommandon`),rt())}B.replaceChildren(e)}function tt(e,t,n){let r=R(`label`,`hm-rad`);return r.appendChild(R(`span`,`hm-rad-text`)).append(R(`span`,`hm-rad-namn`,e),R(`span`,`hm-rad-detalj`,t)),r.append(n),r}function nt(){let e=R(`div`,`hm-installningar`),t=R(`input`);t.type=`checkbox`,t.id=`inst-tema`,t.checked=Ke(),t.addEventListener(`change`,()=>I(t.checked));let n=R(`input`);n.type=`checkbox`,n.id=`inst-live`,n.checked=S(w());let r=R(`p`,`hm-not`);return n.addEventListener(`change`,()=>{r.textContent=Ce(w(),n.checked)?`Sparat. Gäller nästa gång en övning öppnas.`:`Webbläsaren sparar inte valet.`}),e.append(tt(`Verkstadsfärgerna`,`Verkstadsbokens mörka färger. Av ger appens ljusa färger.`,t),tt(`Live watch från start`,`Rutan Live watch är ibockad när en övning öppnas. På prov är den alltid av.`,n),r),e}function rt(){let e=R(`div`);e.append(R(`p`,`hm-ingress`,`Klicka på en tangent och tryck den nya. × tar bort den. Sparas i webbläsaren och gäller direkt. Du kan också ändra dem i övningen, under Mus och tangenter.`));let t=e.appendChild(R(`table`,`hm-tangenter`)),n=R(`p`,`hm-not`,W),r=e=>{W=e,z?.nyaTangenter(),Z()};for(let e of M){let i=t.appendChild(R(`tr`));i.appendChild(R(`td`,``,e.namn));let a=i.appendChild(R(`td`)),o=F.tangent(e.id),s=a.appendChild(R(`button`,`tangent${o?``:` ingen`}`,P(o)));s.type=`button`,s.dataset.handling=e.id,s.title=`Klicka och tryck den nya tangenten`,s.addEventListener(`click`,()=>{if(H)return H=null,W=``,Z();s.textContent=`Tryck …`,s.classList.add(`fangar`),n.textContent=`Tryck den tangent du vill ha för ${e.namn}. Klicka igen för att låta bli.`,H=t=>{try{let n=F.satt(e.id,t),i=M.find(e=>e.id===n)?.namn;r(`${e.namn}: ${P(t)}.${i?` ${i} har ingen tangent nu.`:``}`)}catch(e){W=e.message,Z()}},s.blur()});let c=a.appendChild(R(`button`,`rensa`,`×`));c.type=`button`,c.title=`Ingen tangent`,c.addEventListener(`click`,()=>{H=null,F.satt(e.id,``),r(`${e.namn} har ingen tangent nu.`)})}let i=e.appendChild(R(`button`,`hm-knapp`,`Återställ alla`));return i.type=`button`,i.addEventListener(`click`,()=>{H=null,F.aterstall(),r(`Tangenterna är som från början.`)}),e.append(n,R(`p`,`hm-tips`,`Fast och går inte att ändra: siffror, komma, minus, Enter och Backspace i måttrutan, Shift som låser riktningen, och musen (högerklick menyn, mitten snurrar, Shift + mitten panorerar).`)),e}function it(e){if(K()&&!L()){if(e.stopImmediatePropagation(),e.key in N?e.repeat||(U=N[e.key]):U=null,H){if(e.key in N||e.key===`Shift`)return;e.preventDefault();let t=H;H=null,t(Le(e))}else e.key===`Escape`&&(e.preventDefault(),V===`start`?q():J(`start`))}}function at(e){if(K()&&!L()&&(e.stopImmediatePropagation(),e.key in N&&U===N[e.key])){let e=U;if(U=null,H){let t=H;H=null,t(e)}}}var ot=`modulepreload`,st=function(e,t){return new URL(e,t).href},ct={},lt=function(e){return e.pathname.endsWith(`.css`)},ut=function(e,t,n){if(t in e)return e[t];let r=n();if(!r){e[t]=void 0;return}let i=r.then(()=>{e[t]=void 0},n=>{throw e[t]=void 0,n});return e[t]=i,i},Q=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e,i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}function s(e){return import.meta.resolve?new URL(import.meta.resolve(e)):new URL(e,import.meta.url)}r=o(t.map(t=>{t=st(t,n);let r=s(t),i=lt(r);return ut(ct,r.href,()=>{if(e===void 0){e={all:new Set,styles:new Set};let t=document.getElementsByTagName(`link`);for(let n=t.length-1;n>=0;n--){let r=t[n];e.all.add(r.href),r.rel===`stylesheet`&&e.styles.add(r.href)}}if((i?e.styles:e.all).has(r.href))return;let t=document.createElement(`link`);if(t.rel=i?`stylesheet`:ot,i||(t.as=`script`),t.crossOrigin=``,t.href=r.href,a&&t.setAttribute(`nonce`,a),document.head.appendChild(t),i)return new Promise((e,n)=>{let i=a=>{t.removeEventListener(`load`,i),t.removeEventListener(`error`,i),a.type===`error`?n(Error(`Unable to preload CSS for ${r}`)):e(a)};t.addEventListener(`load`,i),t.addEventListener(`error`,i)})})}).filter(e=>e!==void 0))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})},dt=Object.keys({"../../../wb_bygg/ovningar/01-tak72-takstolar-1-facit.txt":0,"../../../wb_bygg/ovningar/01-tak72-takstolar-1.txt":0,"../../../wb_bygg/ovningar/02-tak74-raspont-1-facit.txt":0,"../../../wb_bygg/ovningar/02-tak74-raspont-1.txt":0,"../../../wb_bygg/ovningar/03-tak76-vindskivor-1-facit.txt":0,"../../../wb_bygg/ovningar/03-tak76-vindskivor-1.txt":0,"../../../wb_bygg/ovningar/04-tak76-nockplanka-1-facit.txt":0,"../../../wb_bygg/ovningar/04-tak76-nockplanka-1.txt":0,"../../../wb_bygg/ovningar/05-tak76-rannkrokar-1-facit.txt":0,"../../../wb_bygg/ovningar/05-tak76-rannkrokar-1.txt":0,"../../../wb_bygg/ovningar/06-tak76-hangranna-1-facit.txt":0,"../../../wb_bygg/ovningar/06-tak76-hangranna-1.txt":0,"../../../wb_bygg/ovningar/07-tak76-fotplat-1-facit.txt":0,"../../../wb_bygg/ovningar/07-tak76-fotplat-1.txt":0,"../../../wb_bygg/ovningar/08-tak74-strolakt-1-facit.txt":0,"../../../wb_bygg/ovningar/08-tak74-strolakt-1.txt":0,"../../../wb_bygg/ovningar/09-tak75-pannstaplar-1-facit.txt":0,"../../../wb_bygg/ovningar/09-tak75-pannstaplar-1.txt":0,"../../../wb_bygg/ovningar/10-tak75-pannlaggning-1-facit.txt":0,"../../../wb_bygg/ovningar/10-tak75-pannlaggning-1.txt":0,"../../../wb_bygg/ovningar/11-tak75-sned-gavel-1-facit.txt":0,"../../../wb_bygg/ovningar/11-tak75-sned-gavel-1.txt":0,"../../../wb_bygg/ovningar/12-tak76-gavelbeslag-1-facit.txt":0,"../../../wb_bygg/ovningar/12-tak76-gavelbeslag-1.txt":0,"../../../wb_bygg/ovningar/13-tak76-nock-1-facit.txt":0,"../../../wb_bygg/ovningar/13-tak76-nock-1.txt":0,"../../../wb_bygg/ovningar/14-tak75-plat-lakt-1-facit.txt":0,"../../../wb_bygg/ovningar/14-tak75-plat-lakt-1.txt":0,"../../../wb_bygg/ovningar/15-tak75-platlangder-1-facit.txt":0,"../../../wb_bygg/ovningar/15-tak75-platlangder-1.txt":0,"../../../wb_bygg/ovningar/16-tak76-platdetaljer-1-facit.txt":0,"../../../wb_bygg/ovningar/16-tak76-platdetaljer-1.txt":0,"../../../wb_bygg/ovningar/17-tak7-felsok-pannor-1-facit.txt":0,"../../../wb_bygg/ovningar/17-tak7-felsok-pannor-1.txt":0,"../../../wb_bygg/ovningar/18-tak7-felsok-plat-1-facit.txt":0,"../../../wb_bygg/ovningar/18-tak7-felsok-plat-1.txt":0,"../../../wb_bygg/ovningar/19-tak74-plat-fotplat-duk-lakt-1-facit.txt":0,"../../../wb_bygg/ovningar/19-tak74-plat-fotplat-duk-lakt-1.txt":0,"../../../wb_bygg/ovningar/20-tak75-plat-forsta-langden-1-facit.txt":0,"../../../wb_bygg/ovningar/20-tak75-plat-forsta-langden-1.txt":0,"../../../wb_bygg/ovningar/21-tak75-plat-overlapp-skruv-1-facit.txt":0,"../../../wb_bygg/ovningar/21-tak75-plat-overlapp-skruv-1.txt":0,"../../../wb_bygg/ovningar/23-tak76-plat-gavel-nock-1-facit.txt":0,"../../../wb_bygg/ovningar/23-tak76-plat-gavel-nock-1.txt":0}).map(A).filter(e=>e!==null),$=new URLSearchParams(location.search);$.get(`bygg`)?Q(()=>import(`./byggritningvy-CamJoDEG.js`),__vite__mapDeps([0,1,2,3,4,5]),import.meta.url):$.has(`bygg`)?Q(()=>import(`./byggval-DlCs3N1S.js`),__vite__mapDeps([6,1,2,5]),import.meta.url):(!$.has(`mobel`)&&j(location.search,dt).sort===`meny`&&Qe(),Q(()=>import(`./main-Ce9V73qZ.js`),__vite__mapDeps([7,1,2,3,4,8]),import.meta.url)),`serviceWorker`in navigator&&navigator.serviceWorker.register(`./sw.js`).catch(()=>{});export{u as $,he as A,ae as B,v as C,ve as D,ye as E,ue as F,ee as G,re as H,le as I,h as J,_ as K,ce as L,pe as M,fe as N,_e as O,de as P,d as Q,se as R,y as S,be as T,ne as U,ie as V,te as W,p as X,m as Y,f as Z,we as _,Ke as a,i as at,x as b,M as c,t as ct,P as d,l as et,A as f,S as g,Ee as h,Je as i,a as it,me as j,ge as k,Le as l,e as lt,k as m,Qe as n,s as nt,qe as o,r as ot,Fe as p,g as q,I as r,o as rt,N as s,n as st,Ze as t,c as tt,F as u,Te as v,xe as w,b as x,w as y,oe as z};
