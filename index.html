@@ -16,8 +16,8 @@
       try { if (localStorage.getItem("byggskolan-tema") !== "av") document.documentElement.dataset.tema = "verkstad"; }
       catch { document.documentElement.dataset.tema = "verkstad"; }
     </script>
-    <script type="module" crossorigin src="./assets/index-iVMtMlyT.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-6fI8ve_o.css">
+    <script type="module" crossorigin src="./assets/index-DpcV_C0j.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Dng3frAU.css">
   </head>
   <body>
     <div id="vy"></div>
@@ -28,6 +28,10 @@
         <label id="live-val"><input type="checkbox" id="live" checked /> Live watch</label>
       </div>
       <ol id="steg"></ol>
+      <div id="framsteg">
+        <p class="tips" id="framsteg-text"></p>
+        <button type="button" id="borja-om" title="Tar bort det du byggt. Bocken och svaren finns kvar.">Börja om</button>
+      </div>
       <section id="fragor-del">
         <h2>Frågor</h2>
         <ol id="fragor"></ol>
