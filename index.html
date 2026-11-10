@@ -1,71 +1,21 @@
 <!doctype html>
 <html lang="sv">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Byggskolan</title>
-    <!-- The iPad: "Lägg till på hemskärmen" opens the furniture list, offline (src/offline.ts). -->
-    <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="apple-touch-icon" href="./ikon-180.png" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Byggskolan" />
-    <meta name="theme-color" content="#1c2420" />
-    <script>
-      // Verkstadsboken's colours before the first paint (src/tema.ts does the rest).
-      try { if (localStorage.getItem("byggskolan-tema") !== "av") document.documentElement.dataset.tema = "verkstad"; }
-      catch { document.documentElement.dataset.tema = "verkstad"; }
-    </script>
-    <script type="module" crossorigin src="./assets/index-DpcV_C0j.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Dng3frAU.css">
-  </head>
-  <body>
-    <div id="vy"></div>
-    <h1 id="titel"></h1>
-    <aside id="panel">
-      <div id="steg-huvud">
-        <h2>Steg <span id="steg-summa"></span></h2>
-        <label id="live-val"><input type="checkbox" id="live" checked /> Live watch</label>
-      </div>
-      <ol id="steg"></ol>
-      <div id="framsteg">
-        <p class="tips" id="framsteg-text"></p>
-        <button type="button" id="borja-om" title="Tar bort det du byggt. Bocken och svaren finns kvar.">Börja om</button>
-      </div>
-      <section id="fragor-del">
-        <h2>Frågor</h2>
-        <ol id="fragor"></ol>
-        <button type="button" id="lamna-in">Lämna in</button>
-        <p class="tips" id="lamna-not">Svaren sparas medan du skriver. Lämna in gör ett block att klistra in i chatten.</p>
-        <div id="inlamning" hidden>
-          <textarea id="inlamning-text" rows="8" readonly></textarea>
-          <button type="button" id="kopiera-igen">Kopiera igen</button>
-        </div>
-      </section>
-      <details>
-        <summary>Mus och tangenter</summary>
-        <dl>
-          <dt>Högerklick</dt><dd>Menyn (på en del: delens meny)</dd>
-          <dt>Mitten-musknapp</dt><dd>Snurra. Med Shift: panorera. Hjulet zoomar.</dd>
-          <dt>Klick</dt><dd>Välj en del. Klick i tomma luften avmarkerar.</dd>
-          <dt>Ctrl+klick</dt><dd>Lägg till fler delar</dd>
-          <dt>Shift+klick</dt><dd>Lägg till eller ta bort ur valet</dd>
-          <dt>Dra en ruta</dt><dd>Åt höger: det som är helt inne. Åt vänster: allt rutan rör.</dd>
-          <dt>Skriv siffror, Enter</dt><dd>Mått i mm, minus går åt andra hållet</dd>
-          <dt>3x, Enter</dt><dd>Direkt efter en kopia: tre kopior i rad</dd>
-          <dt>Shift</dt><dd>Låser riktningen när du flyttar eller mäter</dd>
-        </dl>
-        <h3>Dina tangenter</h3>
-        <p class="tips">Klicka på en tangent och tryck den nya. × tar bort den. Sparas i webbläsaren.</p>
-        <table id="tangenter"></table>
-        <button type="button" id="tangenter-aterstall">Återställ alla</button>
-      </details>
-      <button type="button" id="tema-knapp"></button>
-    </aside>
-    <div id="etikett"></div>
-    <div id="ruta"></div>
-    <button type="button" id="visa-allt">⤢ Visa allt</button>
-    <div id="status"></div>
-    <div id="matt"><span id="matt-namn"></span><span id="matt-varde"></span></div>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Byggskolan har flyttat</title>
+<meta http-equiv="refresh" content="0; url=https://wblanck.netlify.app/byggskolan/">
+<script>
+  // Byggskolan ligger nu i wBlanck (ärende #16, 10 nov 2026). Samma adress efter ? (t.ex. ?bygg=bokhylla-1) följer med.
+  var NY = 'https://wblanck.netlify.app/byggskolan/';
+  location.replace(NY + location.search + location.hash);
+</script>
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #121715; color: #E4EAE5; font: 16px/1.5 system-ui, sans-serif; padding: 16px; box-sizing: border-box; }
+  a { color: #62C29C; }
+</style>
+</head>
+<body>
+<p>Byggskolan har flyttat till <a href="https://wblanck.netlify.app/byggskolan/">wblanck.netlify.app/byggskolan</a>.</p>
+</body>
 </html>

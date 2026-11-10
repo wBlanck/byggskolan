@@ -1,18 +1,21 @@
-// Made by src/offline.ts at build. Do not edit.
-const V = "byggskolan-095b6dc31a64";
-const FILER = ["./","assets/barlow-condensed-latin-600-normal-BFJEwTuo.woff","assets/barlow-condensed-latin-600-normal-DepVgxBB.woff2","assets/barlow-condensed-latin-700-normal-Dmwat-ge.woff","assets/barlow-condensed-latin-700-normal-v1xN8_Wq.woff2","assets/barlow-condensed-latin-ext-600-normal-18ESti3H.woff2","assets/barlow-condensed-latin-ext-600-normal-Clv9cIcR.woff","assets/barlow-condensed-latin-ext-700-normal-BIHFfxf0.woff","assets/barlow-condensed-latin-ext-700-normal-CwuXbfVR.woff2","assets/barlow-condensed-vietnamese-600-normal-A5AYRdjN.woff2","assets/barlow-condensed-vietnamese-600-normal-CNlPk46_.woff","assets/barlow-condensed-vietnamese-700-normal-DYeBwlKR.woff2","assets/barlow-condensed-vietnamese-700-normal-DhIzd8Tb.woff","assets/byggritning-D7qHNOab.css","assets/byggritningvy-D4vH4qZG.js","assets/byggval-dNBZD1eI.js","assets/ibm-plex-mono-cyrillic-400-normal-BSMlKf0J.woff2","assets/ibm-plex-mono-cyrillic-400-normal-CEL4l2ZJ.woff","assets/ibm-plex-mono-cyrillic-500-normal-Ael50iVv.woff","assets/ibm-plex-mono-cyrillic-500-normal-Bq9vWWag.woff2","assets/ibm-plex-mono-cyrillic-ext-400-normal-DMdlQ8Kv.woff","assets/ibm-plex-mono-cyrillic-ext-400-normal-xuaO2J-f.woff2","assets/ibm-plex-mono-cyrillic-ext-500-normal-BIfNGwUT.woff","assets/ibm-plex-mono-cyrillic-ext-500-normal-BqneJy0T.woff2","assets/ibm-plex-mono-latin-400-normal-CvHOgSBP.woff","assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2","assets/ibm-plex-mono-latin-500-normal-CB9ihrfo.woff","assets/ibm-plex-mono-latin-500-normal-DSY6xOcd.woff2","assets/ibm-plex-mono-latin-ext-400-normal-BmRBH3aV.woff2","assets/ibm-plex-mono-latin-ext-400-normal-D3D2R8hC.woff","assets/ibm-plex-mono-latin-ext-500-normal-CAhNIIs5.woff2","assets/ibm-plex-mono-latin-ext-500-normal-CZ70TYgx.woff","assets/ibm-plex-mono-vietnamese-400-normal-BulugwFq.woff2","assets/ibm-plex-mono-vietnamese-400-normal-DDuiU_S-.woff","assets/ibm-plex-mono-vietnamese-500-normal-C8zxqsMH.woff","assets/ibm-plex-mono-vietnamese-500-normal-DZ4AoWbu.woff2","assets/ibm-plex-sans-cyrillic-400-normal-BTotfTJu.woff","assets/ibm-plex-sans-cyrillic-400-normal-DZqxrq2p.woff2","assets/ibm-plex-sans-cyrillic-600-normal-71GNu3SW.woff2","assets/ibm-plex-sans-cyrillic-600-normal-BGq0mW3O.woff","assets/ibm-plex-sans-cyrillic-ext-400-normal-Dsrv2Tcn.woff","assets/ibm-plex-sans-cyrillic-ext-400-normal-g30qAdWV.woff2","assets/ibm-plex-sans-cyrillic-ext-600-normal-Bz0x94Yp.woff","assets/ibm-plex-sans-cyrillic-ext-600-normal-DUMzJB7m.woff2","assets/ibm-plex-sans-greek-400-normal-D9ESIMu3.woff","assets/ibm-plex-sans-greek-400-normal-_efipK4i.woff2","assets/ibm-plex-sans-greek-600-normal-D-CqTdkO.woff","assets/ibm-plex-sans-greek-600-normal-DzTrcv_p.woff2","assets/ibm-plex-sans-latin-400-normal-CDDApCn2.woff2","assets/ibm-plex-sans-latin-400-normal-CYLoc0-x.woff","assets/ibm-plex-sans-latin-600-normal-Cu4Hd6ag.woff","assets/ibm-plex-sans-latin-600-normal-CuJfVYMP.woff2","assets/ibm-plex-sans-latin-ext-400-normal-C5H60-Va.woff2","assets/ibm-plex-sans-latin-ext-400-normal-RBey6euL.woff","assets/ibm-plex-sans-latin-ext-600-normal-DIrixKbi.woff","assets/ibm-plex-sans-latin-ext-600-normal-DOrvGEcy.woff2","assets/ibm-plex-sans-vietnamese-400-normal-DG4YqDda.woff2","assets/ibm-plex-sans-vietnamese-400-normal-fK1oJ5dG.woff","assets/ibm-plex-sans-vietnamese-600-normal-DgdngZtN.woff","assets/ibm-plex-sans-vietnamese-600-normal-DpPYBSTl.woff2","assets/index-Dng3frAU.css","assets/index-DpcV_C0j.js","assets/main-BTKL7wlx.js","assets/main-CG1NWLKt.css","assets/mobelvy-Ci0Nq9Pf.js","assets/mobelvy-XokutZt9.css","assets/vy-BJFX4rgN.css","assets/vy-CpMhN1MC.js","ikon-180.png","ikon-512.png","index.html","manifest.webmanifest"];
-const url = (f) => new URL(f, self.registration.scope).href;
-self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(V).then((c) => c.addAll(FILER.map(url))).then(() => self.skipWaiting()));
+// Byggskolan har flyttat till https://wblanck.netlify.app/byggskolan/ (ärende #16, 10 nov 2026).
+// Den här service workern ersätter den gamla som visade appen från sitt offline-lager.
+// Den tar bort lagret, avregistrerar sig och skickar öppna flikar till den nya adressen.
+const NY = 'https://wblanck.netlify.app/byggskolan/';
+
+self.addEventListener('install', () => self.skipWaiting());
+
+self.addEventListener('activate', (e) => {
+  e.waitUntil((async () => {
+    const namn = await caches.keys();
+    await Promise.all(namn.filter((n) => n.startsWith('byggskolan-')).map((n) => caches.delete(n)));
+    await self.clients.claim();
+    await self.registration.unregister();
+    const flikar = await self.clients.matchAll({ type: 'window' });
+    for (const f of flikar) {
+      const gammal = new URL(f.url);
+      f.navigate(NY + gammal.search + gammal.hash).catch(() => {});
+    }
+  })());
 });
-self.addEventListener("activate", (e) => {
-  e.waitUntil(caches.keys().then((k) => Promise.all(k.filter((n) => n.startsWith("byggskolan-") && n !== V).map((n) => caches.delete(n)))).then(() => self.clients.claim()));
-});
-self.addEventListener("fetch", (e) => {
-  const r = e.request;
-  if (r.method !== "GET" || new URL(r.url).origin !== location.origin) return;
-  // Every page (?bygg=bokhylla-1 too) is index.html; the address after ? is read by the app.
-  // ignoreVary: the scripts are asked for with Origin (crossorigin), the kept copies without.
-  const nyckel = r.mode === "navigate" ? url("./index.html") : r;
-  e.respondWith(caches.open(V).then((c) => c.match(nyckel, { ignoreSearch: r.mode === "navigate", ignoreVary: true }).then((svar) => svar || fetch(r))));
-});
+// Ingen fetch-hanterare: allt går till nätet, och index.html skickar vidare.
